@@ -1,32 +1,17 @@
-
-
+#import <QuartzCore/QuartzCore.h>
 #import "DetailViewController.h"
 #import "Member.h"
-#import <QuartzCore/QuartzCore.h>
-#import <QuartzCore/CALayer.h>
-
-@interface DetailViewController ()
-
-@end
 
 @implementation DetailViewController
 
 @synthesize member;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     // Add background image
-    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"venmobackground.png"]];
+    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"VenmoBackground"]];
     
     [self.view addSubview:backgroundImage];
     [self.view sendSubviewToBack:backgroundImage];

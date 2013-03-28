@@ -1,10 +1,7 @@
-
-
 @class Member;
 
 @interface DetailViewController : UIViewController
 
-@property (nonatomic, strong) Member *member;
+@property (strong, nonatomic) Member *member;
 
 @end
-

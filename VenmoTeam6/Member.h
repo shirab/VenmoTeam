@@ -1,5 +1,3 @@
-
-
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
@@ -11,4 +9,3 @@
 @property (strong, nonatomic) UIImage *Photo;
 
 @end
-

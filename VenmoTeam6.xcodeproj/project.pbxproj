@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5A31CE6D1704C92C0051B936 /* Kristensen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE541704C92C0051B936 /* Kristensen.png */; };
 		5A31CE6E1704C92C0051B936 /* Mirman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE551704C92C0051B936 /* Mirman.png */; };
-		5A31CE6F1704C92C0051B936 /* venmobackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE561704C92C0051B936 /* venmobackground.png */; };
 		5A31CE701704C92C0051B936 /* Ansar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE571704C92C0051B936 /* Ansar.png */; };
 		5A31CE711704C92C0051B936 /* Di Pasquale.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE581704C92C0051B936 /* Di Pasquale.png */; };
 		5A31CE721704C92C0051B936 /* Einfrank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE591704C92C0051B936 /* Einfrank.png */; };
@@ -32,8 +31,9 @@
 		5A31CE831704C92C0051B936 /* Kortina.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE6A1704C92C0051B936 /* Kortina.png */; };
 		5A31CE841704C92C0051B936 /* McFarlane.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE6B1704C92C0051B936 /* McFarlane.png */; };
 		5A31CE851704C92C0051B936 /* Sherwood.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE6C1704C92C0051B936 /* Sherwood.png */; };
-		5A31CE871704C93B0051B936 /* venmoteam3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE861704C93B0051B936 /* venmoteam3.png */; };
-		5A31CE891704CA6F0051B936 /* cellbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE881704CA6F0051B936 /* cellbackground.png */; };
+		5A31CE8B1704CE410051B936 /* VenmoTeam.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE8A1704CE410051B936 /* VenmoTeam.png */; };
+		5A31CE8D1704CE540051B936 /* VenmoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE8C1704CE540051B936 /* VenmoBackground.png */; };
+		5A31CE8F1704CE5B0051B936 /* CellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE8E1704CE5B0051B936 /* CellBackground.png */; };
 		5A42D04A16FB7774004B3BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42D04916FB7773004B3BD7 /* UIKit.framework */; };
 		5A42D04C16FB7774004B3BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42D04B16FB7774004B3BD7 /* Foundation.framework */; };
 		5A42D04E16FB7774004B3BD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42D04D16FB7774004B3BD7 /* CoreGraphics.framework */; };
@@ -67,7 +67,6 @@
 /* Begin PBXFileReference section */
 		5A31CE541704C92C0051B936 /* Kristensen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kristensen.png; sourceTree = "<group>"; };
 		5A31CE551704C92C0051B936 /* Mirman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mirman.png; sourceTree = "<group>"; };
-		5A31CE561704C92C0051B936 /* venmobackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venmobackground.png; sourceTree = "<group>"; };
 		5A31CE571704C92C0051B936 /* Ansar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ansar.png; sourceTree = "<group>"; };
 		5A31CE581704C92C0051B936 /* Di Pasquale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Di Pasquale.png"; sourceTree = "<group>"; };
 		5A31CE591704C92C0051B936 /* Einfrank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Einfrank.png; sourceTree = "<group>"; };
@@ -90,8 +89,9 @@
 		5A31CE6A1704C92C0051B936 /* Kortina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kortina.png; sourceTree = "<group>"; };
 		5A31CE6B1704C92C0051B936 /* McFarlane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = McFarlane.png; sourceTree = "<group>"; };
 		5A31CE6C1704C92C0051B936 /* Sherwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sherwood.png; sourceTree = "<group>"; };
-		5A31CE861704C93B0051B936 /* venmoteam3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venmoteam3.png; sourceTree = "<group>"; };
-		5A31CE881704CA6F0051B936 /* cellbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellbackground.png; sourceTree = "<group>"; };
+		5A31CE8A1704CE410051B936 /* VenmoTeam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VenmoTeam.png; sourceTree = "<group>"; };
+		5A31CE8C1704CE540051B936 /* VenmoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VenmoBackground.png; sourceTree = "<group>"; };
+		5A31CE8E1704CE5B0051B936 /* CellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellBackground.png; sourceTree = "<group>"; };
 		5A42D04616FB7773004B3BD7 /* VenmoTeam6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoTeam6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A42D04916FB7773004B3BD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5A42D04B16FB7774004B3BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -147,11 +147,11 @@
 		5A31CE531704C8E50051B936 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5A31CE881704CA6F0051B936 /* cellbackground.png */,
-				5A31CE861704C93B0051B936 /* venmoteam3.png */,
+				5A31CE8E1704CE5B0051B936 /* CellBackground.png */,
+				5A31CE8C1704CE540051B936 /* VenmoBackground.png */,
+				5A31CE8A1704CE410051B936 /* VenmoTeam.png */,
 				5A31CE541704C92C0051B936 /* Kristensen.png */,
 				5A31CE551704C92C0051B936 /* Mirman.png */,
-				5A31CE561704C92C0051B936 /* venmobackground.png */,
 				5A31CE571704C92C0051B936 /* Ansar.png */,
 				5A31CE581704C92C0051B936 /* Di Pasquale.png */,
 				5A31CE591704C92C0051B936 /* Einfrank.png */,
@@ -338,7 +338,6 @@
 				5ABBB45216FD835900B99B1F /* README.md in Resources */,
 				5A31CE6D1704C92C0051B936 /* Kristensen.png in Resources */,
 				5A31CE6E1704C92C0051B936 /* Mirman.png in Resources */,
-				5A31CE6F1704C92C0051B936 /* venmobackground.png in Resources */,
 				5A31CE701704C92C0051B936 /* Ansar.png in Resources */,
 				5A31CE711704C92C0051B936 /* Di Pasquale.png in Resources */,
 				5A31CE721704C92C0051B936 /* Einfrank.png in Resources */,
@@ -361,8 +360,9 @@
 				5A31CE831704C92C0051B936 /* Kortina.png in Resources */,
 				5A31CE841704C92C0051B936 /* McFarlane.png in Resources */,
 				5A31CE851704C92C0051B936 /* Sherwood.png in Resources */,
-				5A31CE871704C93B0051B936 /* venmoteam3.png in Resources */,
-				5A31CE891704CA6F0051B936 /* cellbackground.png in Resources */,
+				5A31CE8B1704CE410051B936 /* VenmoTeam.png in Resources */,
+				5A31CE8D1704CE540051B936 /* VenmoBackground.png in Resources */,
+				5A31CE8F1704CE5B0051B936 /* CellBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
