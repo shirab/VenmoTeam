@@ -1,7 +1,6 @@
 #import "RootViewController.h"
 #import "VVTAppDelegate.h"
 
-
 @implementation VVTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

@@ -12,7 +12,6 @@
     
     // Add backgroundImage.
     UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"VenmoBackground"]];
-    
     [self.view addSubview:backgroundImage];
 
     // Add nameLabel.
@@ -22,7 +21,7 @@
     nameLabel.font = [UIFont fontWithName:@"AppleGothic" size:16.0];
     [self.view addSubview:nameLabel];
     
-    // Add titleBackground.
+    // Add titleLabel.
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(153, 31, 300, 30)];
     titleLabel.text = member.Title;
     titleLabel.font = [UIFont fontWithName:@"AppleGothic" size:14.0];
@@ -41,12 +40,12 @@
     // Add imageView.
     UIImageView *imageView = [[UIImageView alloc] initWithImage:member.Photo];
 	
-    // Make image corners rounded
+    // Make imageView corners rounded.
     imageView.frame = CGRectMake(10,10,130,140);
     imageView.layer.cornerRadius = 8.0;
     imageView.layer.masksToBounds = YES;
 
-    // Add shadow behind image
+    // Add shadow behind imageView.
     UIView* shadowView = [[UIView alloc] init];
     shadowView.layer.cornerRadius = 8.0;
     shadowView.layer.shadowColor = [[UIColor blackColor] CGColor];
@@ -54,11 +53,8 @@
     shadowView.layer.shadowOpacity = 0.7f;
     shadowView.layer.shadowRadius = 3.0f;
     [shadowView addSubview:imageView];
-    
     [self.view addSubview:shadowView];
 
-
-    
 }
 
 - (void)didReceiveMemoryWarning
