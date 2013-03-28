@@ -33,6 +33,7 @@
 		5A31CE841704C92C0051B936 /* McFarlane.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE6B1704C92C0051B936 /* McFarlane.png */; };
 		5A31CE851704C92C0051B936 /* Sherwood.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE6C1704C92C0051B936 /* Sherwood.png */; };
 		5A31CE871704C93B0051B936 /* venmoteam3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE861704C93B0051B936 /* venmoteam3.png */; };
+		5A31CE891704CA6F0051B936 /* cellbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE881704CA6F0051B936 /* cellbackground.png */; };
 		5A42D04A16FB7774004B3BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42D04916FB7773004B3BD7 /* UIKit.framework */; };
 		5A42D04C16FB7774004B3BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42D04B16FB7774004B3BD7 /* Foundation.framework */; };
 		5A42D04E16FB7774004B3BD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42D04D16FB7774004B3BD7 /* CoreGraphics.framework */; };
@@ -90,6 +91,7 @@
 		5A31CE6B1704C92C0051B936 /* McFarlane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = McFarlane.png; sourceTree = "<group>"; };
 		5A31CE6C1704C92C0051B936 /* Sherwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sherwood.png; sourceTree = "<group>"; };
 		5A31CE861704C93B0051B936 /* venmoteam3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = venmoteam3.png; sourceTree = "<group>"; };
+		5A31CE881704CA6F0051B936 /* cellbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellbackground.png; sourceTree = "<group>"; };
 		5A42D04616FB7773004B3BD7 /* VenmoTeam6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoTeam6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A42D04916FB7773004B3BD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5A42D04B16FB7774004B3BD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -145,6 +147,7 @@
 		5A31CE531704C8E50051B936 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A31CE881704CA6F0051B936 /* cellbackground.png */,
 				5A31CE861704C93B0051B936 /* venmoteam3.png */,
 				5A31CE541704C92C0051B936 /* Kristensen.png */,
 				5A31CE551704C92C0051B936 /* Mirman.png */,
@@ -359,6 +362,7 @@
 				5A31CE841704C92C0051B936 /* McFarlane.png in Resources */,
 				5A31CE851704C92C0051B936 /* Sherwood.png in Resources */,
 				5A31CE871704C93B0051B936 /* venmoteam3.png in Resources */,
+				5A31CE891704CA6F0051B936 /* cellbackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
