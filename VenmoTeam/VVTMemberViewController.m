@@ -12,7 +12,7 @@
     // Add logo to navBar.
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"AboutTitle"]];
     
-    // Add backgroundImage.
+    // Set backgroundColor with image.
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"VenmoBackground"]];
     
     // Add nameLabel.

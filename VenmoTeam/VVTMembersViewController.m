@@ -191,9 +191,9 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Create and push 'detailViewController'.
-    VVTMemberViewController *detailViewController = [[VVTMemberViewController alloc] initWithNibName:nil bundle:nil];
-    detailViewController.member = _members[indexPath.row];
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    VVTMemberViewController *memberViewController = [[VVTMemberViewController alloc] initWithNibName:nil bundle:nil];
+    memberViewController.member = _members[indexPath.row];
+    [self.navigationController pushViewController:memberViewController animated:YES];
 }
 
 @end
