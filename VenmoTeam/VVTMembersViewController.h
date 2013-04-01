@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController
+@interface VVTMembersViewController : UITableViewController
 
 @property (nonatomic, strong) NSArray *members;
 

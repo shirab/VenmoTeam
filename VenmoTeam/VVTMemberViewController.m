@@ -1,8 +1,8 @@
 #import <QuartzCore/QuartzCore.h>
-#import "DetailViewController.h"
-#import "Member.h"
+#import "VVTMemberViewController.h"
+#import "VVTMember.h"
 
-@implementation DetailViewController
+@implementation VVTMemberViewController
 
 @synthesize member;
 
@@ -13,35 +13,34 @@
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"AboutTitle"]];
     
     // Add backgroundImage.
-    UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"VenmoBackground"]];
-    [self.view addSubview:backgroundImage];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"VenmoBackground"]];
     
     // Add nameLabel.
     UILabel *nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(153, 10, 300, 30)];
-    nameLabel.text = member.Name;
+    nameLabel.text = member.name;
     nameLabel.backgroundColor = [UIColor clearColor];
     nameLabel.font = [UIFont fontWithName:@"Avenir" size:16.0];
     [self.view addSubview:nameLabel];
     
     // Add titleLabel.
     UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(153, 31, 300, 30)];
-    titleLabel.text = member.Title;
+    titleLabel.text = member.title;
     titleLabel.font = [UIFont fontWithName:@"Avenir" size:14.0];
     titleLabel.textColor = [UIColor lightGrayColor];
     titleLabel.backgroundColor = [UIColor clearColor];
     [self.view addSubview:titleLabel];
     
     // Add bioTextView.
-    UITextView *bioTextView = [[UITextView alloc] initWithFrame:CGRectMake(10, 155, 300, 340)];
-    bioTextView.text = member.About;
-    bioTextView.font = [UIFont fontWithName:@"Avenir" size:14.0];
-    bioTextView.backgroundColor = [UIColor clearColor];
-    bioTextView.editable = NO;
-    [self.view addSubview:bioTextView];
+    UITextView *aboutTextView = [[UITextView alloc] initWithFrame:CGRectMake(10, 155, 300, 340)];
+    aboutTextView.text = member.about;
+    aboutTextView.font = [UIFont fontWithName:@"Avenir" size:14.0];
+    aboutTextView.backgroundColor = [UIColor clearColor];
+    aboutTextView.editable = NO;
+    [self.view addSubview:aboutTextView];
     
     // Add imageView.
     UIImageView *imageView = [[UIImageView alloc] init];
-    imageView.image = [UIImage imageNamed:member.Picture];
+    imageView.image = [UIImage imageNamed:member.pictureName];
 	
     // Make imageView corners rounded.
     imageView.frame = CGRectMake(10, 10, 130, 140);

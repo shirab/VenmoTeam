@@ -1,4 +1,4 @@
-#import "RootViewController.h"
+#import "VVTMembersViewController.h"
 #import "VVTAppDelegate.h"
 
 @implementation VVTAppDelegate
@@ -9,7 +9,7 @@
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"NavigationBarBackgroundDefault"] forBarMetrics:UIBarMetricsDefault];
     
     // Create the RootViewController.
-    RootViewController *rootViewController = [[RootViewController alloc] initWithStyle:UITableViewStylePlain];
+    VVTMembersViewController *rootViewController = [[VVTMembersViewController alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     _window.rootViewController = navigationController;

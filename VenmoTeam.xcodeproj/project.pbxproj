@@ -21,9 +21,9 @@
 		5A3DEFB117091A7B00C69287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9217091A7A00C69287 /* Foundation.framework */; };
 		5A3DEFB917091A7B00C69287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFB717091A7B00C69287 /* InfoPlist.strings */; };
 		5A3DEFBC17091A7B00C69287 /* VenmoTeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */; };
-		5A3DEFC717091AA300C69287 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC617091AA300C69287 /* RootViewController.m */; };
-		5A3DEFCA17091ADD00C69287 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC917091ADD00C69287 /* DetailViewController.m */; };
-		5A3DEFCD17091AFA00C69287 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFCC17091AFA00C69287 /* Member.m */; };
+		5A3DEFC717091AA300C69287 /* VVTMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC617091AA300C69287 /* VVTMembersViewController.m */; };
+		5A3DEFCA17091ADD00C69287 /* VVTMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC917091ADD00C69287 /* VVTMemberViewController.m */; };
+		5A3DEFCD17091AFA00C69287 /* VVTMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFCC17091AFA00C69287 /* VVTMember.m */; };
 		5A3DEFD617091B8B00C69287 /* AboutTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFCF17091B8B00C69287 /* AboutTitle@2x.png */; };
 		5A3DEFD717091B8B00C69287 /* Ansar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFD017091B8B00C69287 /* Ansar.png */; };
 		5A3DEFD817091B8B00C69287 /* Bentert.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFD117091B8B00C69287 /* Bentert.png */; };
@@ -86,12 +86,12 @@
 		5A3DEFB817091A7B00C69287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A3DEFBA17091A7B00C69287 /* VenmoTeamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenmoTeamTests.h; sourceTree = "<group>"; };
 		5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenmoTeamTests.m; sourceTree = "<group>"; };
-		5A3DEFC517091AA300C69287 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		5A3DEFC617091AA300C69287 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		5A3DEFC817091ADD00C69287 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		5A3DEFC917091ADD00C69287 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		5A3DEFCB17091AFA00C69287 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
-		5A3DEFCC17091AFA00C69287 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		5A3DEFC517091AA300C69287 /* VVTMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTMembersViewController.h; sourceTree = "<group>"; };
+		5A3DEFC617091AA300C69287 /* VVTMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTMembersViewController.m; sourceTree = "<group>"; };
+		5A3DEFC817091ADD00C69287 /* VVTMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTMemberViewController.h; sourceTree = "<group>"; };
+		5A3DEFC917091ADD00C69287 /* VVTMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTMemberViewController.m; sourceTree = "<group>"; };
+		5A3DEFCB17091AFA00C69287 /* VVTMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTMember.h; sourceTree = "<group>"; };
+		5A3DEFCC17091AFA00C69287 /* VVTMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTMember.m; sourceTree = "<group>"; };
 		5A3DEFCF17091B8B00C69287 /* AboutTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AboutTitle@2x.png"; sourceTree = "<group>"; };
 		5A3DEFD017091B8B00C69287 /* Ansar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ansar.png; sourceTree = "<group>"; };
 		5A3DEFD117091B8B00C69287 /* Bentert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bentert.png; sourceTree = "<group>"; };
@@ -183,12 +183,12 @@
 			children = (
 				5A3DEF9F17091A7B00C69287 /* VVTAppDelegate.h */,
 				5A3DEFA017091A7B00C69287 /* VVTAppDelegate.m */,
-				5A3DEFC517091AA300C69287 /* RootViewController.h */,
-				5A3DEFC617091AA300C69287 /* RootViewController.m */,
-				5A3DEFC817091ADD00C69287 /* DetailViewController.h */,
-				5A3DEFC917091ADD00C69287 /* DetailViewController.m */,
-				5A3DEFCB17091AFA00C69287 /* Member.h */,
-				5A3DEFCC17091AFA00C69287 /* Member.m */,
+				5A3DEFC517091AA300C69287 /* VVTMembersViewController.h */,
+				5A3DEFC617091AA300C69287 /* VVTMembersViewController.m */,
+				5A3DEFC817091ADD00C69287 /* VVTMemberViewController.h */,
+				5A3DEFC917091ADD00C69287 /* VVTMemberViewController.m */,
+				5A3DEFCB17091AFA00C69287 /* VVTMember.h */,
+				5A3DEFCC17091AFA00C69287 /* VVTMember.m */,
 				5A3DEFCE17091B3D00C69287 /* Resources */,
 				5A3DEF9717091A7B00C69287 /* Supporting Files */,
 				5A9447F1170940A300FE6C27 /* README.md */,
@@ -407,9 +407,9 @@
 			files = (
 				5A3DEF9D17091A7B00C69287 /* main.m in Sources */,
 				5A3DEFA117091A7B00C69287 /* VVTAppDelegate.m in Sources */,
-				5A3DEFC717091AA300C69287 /* RootViewController.m in Sources */,
-				5A3DEFCA17091ADD00C69287 /* DetailViewController.m in Sources */,
-				5A3DEFCD17091AFA00C69287 /* Member.m in Sources */,
+				5A3DEFC717091AA300C69287 /* VVTMembersViewController.m in Sources */,
+				5A3DEFCA17091ADD00C69287 /* VVTMemberViewController.m in Sources */,
+				5A3DEFCD17091AFA00C69287 /* VVTMember.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
