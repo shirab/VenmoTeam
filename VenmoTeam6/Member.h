@@ -5,7 +5,7 @@
 
 @property (strong, nonatomic) NSString *Name;
 @property (strong, nonatomic) NSString *Title;
-@property (strong, nonatomic) NSString *Bio;
-@property (strong, nonatomic) UIImage *Photo;
+@property (strong, nonatomic) NSString *About;
+@property (strong, nonatomic) NSString *Picture;
 
 @end
