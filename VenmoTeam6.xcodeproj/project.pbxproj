@@ -10,18 +10,28 @@
 		5A31CE6D1704C92C0051B936 /* Kristensen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE541704C92C0051B936 /* Kristensen.png */; };
 		5A31CE6E1704C92C0051B936 /* Mirman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE551704C92C0051B936 /* Mirman.png */; };
 		5A31CE701704C92C0051B936 /* Ansar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE571704C92C0051B936 /* Ansar.png */; };
+		5A31CE711704C92C0051B936 /* Di Pasquale.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE581704C92C0051B936 /* Di Pasquale.png */; };
 		5A31CE721704C92C0051B936 /* Einfrank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE591704C92C0051B936 /* Einfrank.png */; };
+		5A31CE731704C92C0051B936 /* Graham.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE5A1704C92C0051B936 /* Graham.png */; };
 		5A31CE741704C92C0051B936 /* Greaney.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE5B1704C92C0051B936 /* Greaney.png */; };
 		5A31CE751704C92C0051B936 /* Kimchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE5C1704C92C0051B936 /* Kimchi.png */; };
+		5A31CE761704C92C0051B936 /* Magdon-Ismail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE5D1704C92C0051B936 /* Magdon-Ismail.png */; };
 		5A31CE771704C92C0051B936 /* Majeed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE5E1704C92C0051B936 /* Majeed.png */; };
+		5A31CE781704C92C0051B936 /* Vaughan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE5F1704C92C0051B936 /* Vaughan.png */; };
 		5A31CE791704C92C0051B936 /* Zakin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE601704C92C0051B936 /* Zakin.png */; };
 		5A31CE7A1704C92C0051B936 /* Cosson.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE611704C92C0051B936 /* Cosson.png */; };
+		5A31CE7B1704C92C0051B936 /* Garfinkel.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE621704C92C0051B936 /* Garfinkel.png */; };
 		5A31CE7C1704C92C0051B936 /* Hamilton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE631704C92C0051B936 /* Hamilton.png */; };
 		5A31CE7D1704C92C0051B936 /* Hitti.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE641704C92C0051B936 /* Hitti.png */; };
+		5A31CE7E1704C92C0051B936 /* Staub.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE651704C92C0051B936 /* Staub.png */; };
+		5A31CE7F1704C92C0051B936 /* Bentert.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE661704C92C0051B936 /* Bentert.png */; };
 		5A31CE801704C92C0051B936 /* Brettman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE671704C92C0051B936 /* Brettman.png */; };
+		5A31CE811704C92C0051B936 /* Connor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE681704C92C0051B936 /* Connor.png */; };
 		5A31CE821704C92C0051B936 /* Hodelin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE691704C92C0051B936 /* Hodelin.png */; };
+		5A31CE831704C92C0051B936 /* Kortina.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE6A1704C92C0051B936 /* Kortina.png */; };
 		5A31CE841704C92C0051B936 /* McFarlane.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE6B1704C92C0051B936 /* McFarlane.png */; };
 		5A31CE851704C92C0051B936 /* Sherwood.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE6C1704C92C0051B936 /* Sherwood.png */; };
+		5A31CE8B1704CE410051B936 /* VenmoTeam.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE8A1704CE410051B936 /* VenmoTeam.png */; };
 		5A31CE8D1704CE540051B936 /* VenmoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE8C1704CE540051B936 /* VenmoBackground.png */; };
 		5A31CE8F1704CE5B0051B936 /* CellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE8E1704CE5B0051B936 /* CellBackground.png */; };
 		5A42D04A16FB7774004B3BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42D04916FB7773004B3BD7 /* UIKit.framework */; };
@@ -40,18 +50,7 @@
 		5A42D07516FB7774004B3BD7 /* VenmoTeam6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A42D07416FB7774004B3BD7 /* VenmoTeam6Tests.m */; };
 		5A42D08016FB77B5004B3BD7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A42D07F16FB77B5004B3BD7 /* RootViewController.m */; };
 		5A42D08316FB7858004B3BD7 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A42D08216FB7858004B3BD7 /* Member.m */; };
-		5A5210461708F46900F26F4D /* VenmoTeamLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5210451708F46900F26F4D /* VenmoTeamLogo@2x.png */; };
 		5A61E9B316FD1FC100695206 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A61E9B216FD1FC100695206 /* DetailViewController.m */; };
-		5A8608351708C2C600CBCAA6 /* Bentert.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608341708C2C600CBCAA6 /* Bentert.png */; };
-		5A8608371708C2CE00CBCAA6 /* Connor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608361708C2CE00CBCAA6 /* Connor.png */; };
-		5A8608391708C2D900CBCAA6 /* Garfinkel.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608381708C2D900CBCAA6 /* Garfinkel.png */; };
-		5A86083B1708C32C00CBCAA6 /* Graham.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A86083A1708C32C00CBCAA6 /* Graham.png */; };
-		5A86083D1708C33200CBCAA6 /* Di Pasquale.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A86083C1708C33200CBCAA6 /* Di Pasquale.png */; };
-		5A86083F1708C33C00CBCAA6 /* Kortina.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A86083E1708C33C00CBCAA6 /* Kortina.png */; };
-		5A8608411708C34700CBCAA6 /* Magdon-Ismail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608401708C34700CBCAA6 /* Magdon-Ismail.png */; };
-		5A8608431708C35300CBCAA6 /* Staub.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608421708C35300CBCAA6 /* Staub.png */; };
-		5A8608451708C36800CBCAA6 /* Vaughan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608441708C36800CBCAA6 /* Vaughan.png */; };
-		5A86084B1708C97A00CBCAA6 /* NavigationBarBackgroundDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A86084A1708C97A00CBCAA6 /* NavigationBarBackgroundDefault.png */; };
 		5ABBB45216FD835900B99B1F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBB45116FD835900B99B1F /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -69,18 +68,28 @@
 		5A31CE541704C92C0051B936 /* Kristensen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kristensen.png; sourceTree = "<group>"; };
 		5A31CE551704C92C0051B936 /* Mirman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mirman.png; sourceTree = "<group>"; };
 		5A31CE571704C92C0051B936 /* Ansar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ansar.png; sourceTree = "<group>"; };
+		5A31CE581704C92C0051B936 /* Di Pasquale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Di Pasquale.png"; sourceTree = "<group>"; };
 		5A31CE591704C92C0051B936 /* Einfrank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Einfrank.png; sourceTree = "<group>"; };
+		5A31CE5A1704C92C0051B936 /* Graham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graham.png; sourceTree = "<group>"; };
 		5A31CE5B1704C92C0051B936 /* Greaney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Greaney.png; sourceTree = "<group>"; };
 		5A31CE5C1704C92C0051B936 /* Kimchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kimchi.png; sourceTree = "<group>"; };
+		5A31CE5D1704C92C0051B936 /* Magdon-Ismail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Magdon-Ismail.png"; sourceTree = "<group>"; };
 		5A31CE5E1704C92C0051B936 /* Majeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Majeed.png; sourceTree = "<group>"; };
+		5A31CE5F1704C92C0051B936 /* Vaughan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vaughan.png; sourceTree = "<group>"; };
 		5A31CE601704C92C0051B936 /* Zakin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zakin.png; sourceTree = "<group>"; };
 		5A31CE611704C92C0051B936 /* Cosson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cosson.png; sourceTree = "<group>"; };
+		5A31CE621704C92C0051B936 /* Garfinkel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garfinkel.png; sourceTree = "<group>"; };
 		5A31CE631704C92C0051B936 /* Hamilton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hamilton.png; sourceTree = "<group>"; };
 		5A31CE641704C92C0051B936 /* Hitti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hitti.png; sourceTree = "<group>"; };
+		5A31CE651704C92C0051B936 /* Staub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Staub.png; sourceTree = "<group>"; };
+		5A31CE661704C92C0051B936 /* Bentert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bentert.png; sourceTree = "<group>"; };
 		5A31CE671704C92C0051B936 /* Brettman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brettman.png; sourceTree = "<group>"; };
+		5A31CE681704C92C0051B936 /* Connor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Connor.png; sourceTree = "<group>"; };
 		5A31CE691704C92C0051B936 /* Hodelin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hodelin.png; sourceTree = "<group>"; };
+		5A31CE6A1704C92C0051B936 /* Kortina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kortina.png; sourceTree = "<group>"; };
 		5A31CE6B1704C92C0051B936 /* McFarlane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = McFarlane.png; sourceTree = "<group>"; };
 		5A31CE6C1704C92C0051B936 /* Sherwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sherwood.png; sourceTree = "<group>"; };
+		5A31CE8A1704CE410051B936 /* VenmoTeam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VenmoTeam.png; sourceTree = "<group>"; };
 		5A31CE8C1704CE540051B936 /* VenmoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VenmoBackground.png; sourceTree = "<group>"; };
 		5A31CE8E1704CE5B0051B936 /* CellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellBackground.png; sourceTree = "<group>"; };
 		5A42D04616FB7773004B3BD7 /* VenmoTeam6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoTeam6.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,19 +115,8 @@
 		5A42D07F16FB77B5004B3BD7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		5A42D08116FB7858004B3BD7 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
 		5A42D08216FB7858004B3BD7 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
-		5A5210451708F46900F26F4D /* VenmoTeamLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VenmoTeamLogo@2x.png"; sourceTree = "<group>"; };
 		5A61E9B116FD1FC100695206 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5A61E9B216FD1FC100695206 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		5A8608341708C2C600CBCAA6 /* Bentert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bentert.png; sourceTree = "<group>"; };
-		5A8608361708C2CE00CBCAA6 /* Connor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Connor.png; sourceTree = "<group>"; };
-		5A8608381708C2D900CBCAA6 /* Garfinkel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garfinkel.png; sourceTree = "<group>"; };
-		5A86083A1708C32C00CBCAA6 /* Graham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graham.png; sourceTree = "<group>"; };
-		5A86083C1708C33200CBCAA6 /* Di Pasquale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Di Pasquale.png"; sourceTree = "<group>"; };
-		5A86083E1708C33C00CBCAA6 /* Kortina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kortina.png; sourceTree = "<group>"; };
-		5A8608401708C34700CBCAA6 /* Magdon-Ismail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Magdon-Ismail.png"; sourceTree = "<group>"; };
-		5A8608421708C35300CBCAA6 /* Staub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Staub.png; sourceTree = "<group>"; };
-		5A8608441708C36800CBCAA6 /* Vaughan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vaughan.png; sourceTree = "<group>"; };
-		5A86084A1708C97A00CBCAA6 /* NavigationBarBackgroundDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBarBackgroundDefault.png; sourceTree = "<group>"; };
 		5ABBB45116FD835900B99B1F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,32 +147,31 @@
 		5A31CE531704C8E50051B936 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5A5210451708F46900F26F4D /* VenmoTeamLogo@2x.png */,
-				5A8608441708C36800CBCAA6 /* Vaughan.png */,
-				5A8608421708C35300CBCAA6 /* Staub.png */,
-				5A8608401708C34700CBCAA6 /* Magdon-Ismail.png */,
-				5A86083E1708C33C00CBCAA6 /* Kortina.png */,
-				5A86083C1708C33200CBCAA6 /* Di Pasquale.png */,
-				5A86083A1708C32C00CBCAA6 /* Graham.png */,
-				5A8608381708C2D900CBCAA6 /* Garfinkel.png */,
-				5A8608361708C2CE00CBCAA6 /* Connor.png */,
-				5A8608341708C2C600CBCAA6 /* Bentert.png */,
 				5A31CE8E1704CE5B0051B936 /* CellBackground.png */,
 				5A31CE8C1704CE540051B936 /* VenmoBackground.png */,
+				5A31CE8A1704CE410051B936 /* VenmoTeam.png */,
 				5A31CE541704C92C0051B936 /* Kristensen.png */,
 				5A31CE551704C92C0051B936 /* Mirman.png */,
 				5A31CE571704C92C0051B936 /* Ansar.png */,
+				5A31CE581704C92C0051B936 /* Di Pasquale.png */,
 				5A31CE591704C92C0051B936 /* Einfrank.png */,
+				5A31CE5A1704C92C0051B936 /* Graham.png */,
 				5A31CE5B1704C92C0051B936 /* Greaney.png */,
 				5A31CE5C1704C92C0051B936 /* Kimchi.png */,
-				5A86084A1708C97A00CBCAA6 /* NavigationBarBackgroundDefault.png */,
+				5A31CE5D1704C92C0051B936 /* Magdon-Ismail.png */,
 				5A31CE5E1704C92C0051B936 /* Majeed.png */,
+				5A31CE5F1704C92C0051B936 /* Vaughan.png */,
 				5A31CE601704C92C0051B936 /* Zakin.png */,
 				5A31CE611704C92C0051B936 /* Cosson.png */,
+				5A31CE621704C92C0051B936 /* Garfinkel.png */,
 				5A31CE631704C92C0051B936 /* Hamilton.png */,
 				5A31CE641704C92C0051B936 /* Hitti.png */,
+				5A31CE651704C92C0051B936 /* Staub.png */,
+				5A31CE661704C92C0051B936 /* Bentert.png */,
 				5A31CE671704C92C0051B936 /* Brettman.png */,
+				5A31CE681704C92C0051B936 /* Connor.png */,
 				5A31CE691704C92C0051B936 /* Hodelin.png */,
+				5A31CE6A1704C92C0051B936 /* Kortina.png */,
 				5A31CE6B1704C92C0051B936 /* McFarlane.png */,
 				5A31CE6C1704C92C0051B936 /* Sherwood.png */,
 			);
@@ -214,6 +211,7 @@
 		5A42D04F16FB7774004B3BD7 /* VenmoTeam6 */ = {
 			isa = PBXGroup;
 			children = (
+				5A31CE531704C8E50051B936 /* Resources */,
 				5A42D05816FB7774004B3BD7 /* VVTAppDelegate.h */,
 				5A42D05916FB7774004B3BD7 /* VVTAppDelegate.m */,
 				5A42D07E16FB77B5004B3BD7 /* RootViewController.h */,
@@ -223,7 +221,6 @@
 				5A42D08116FB7858004B3BD7 /* Member.h */,
 				5A42D08216FB7858004B3BD7 /* Member.m */,
 				5ABBB45116FD835900B99B1F /* README.md */,
-				5A31CE531704C8E50051B936 /* Resources */,
 				5A42D05016FB7774004B3BD7 /* Supporting Files */,
 			);
 			path = VenmoTeam6;
@@ -342,31 +339,30 @@
 				5A31CE6D1704C92C0051B936 /* Kristensen.png in Resources */,
 				5A31CE6E1704C92C0051B936 /* Mirman.png in Resources */,
 				5A31CE701704C92C0051B936 /* Ansar.png in Resources */,
+				5A31CE711704C92C0051B936 /* Di Pasquale.png in Resources */,
 				5A31CE721704C92C0051B936 /* Einfrank.png in Resources */,
+				5A31CE731704C92C0051B936 /* Graham.png in Resources */,
 				5A31CE741704C92C0051B936 /* Greaney.png in Resources */,
 				5A31CE751704C92C0051B936 /* Kimchi.png in Resources */,
+				5A31CE761704C92C0051B936 /* Magdon-Ismail.png in Resources */,
 				5A31CE771704C92C0051B936 /* Majeed.png in Resources */,
+				5A31CE781704C92C0051B936 /* Vaughan.png in Resources */,
 				5A31CE791704C92C0051B936 /* Zakin.png in Resources */,
 				5A31CE7A1704C92C0051B936 /* Cosson.png in Resources */,
+				5A31CE7B1704C92C0051B936 /* Garfinkel.png in Resources */,
 				5A31CE7C1704C92C0051B936 /* Hamilton.png in Resources */,
 				5A31CE7D1704C92C0051B936 /* Hitti.png in Resources */,
+				5A31CE7E1704C92C0051B936 /* Staub.png in Resources */,
+				5A31CE7F1704C92C0051B936 /* Bentert.png in Resources */,
 				5A31CE801704C92C0051B936 /* Brettman.png in Resources */,
+				5A31CE811704C92C0051B936 /* Connor.png in Resources */,
 				5A31CE821704C92C0051B936 /* Hodelin.png in Resources */,
+				5A31CE831704C92C0051B936 /* Kortina.png in Resources */,
 				5A31CE841704C92C0051B936 /* McFarlane.png in Resources */,
 				5A31CE851704C92C0051B936 /* Sherwood.png in Resources */,
+				5A31CE8B1704CE410051B936 /* VenmoTeam.png in Resources */,
 				5A31CE8D1704CE540051B936 /* VenmoBackground.png in Resources */,
 				5A31CE8F1704CE5B0051B936 /* CellBackground.png in Resources */,
-				5A8608351708C2C600CBCAA6 /* Bentert.png in Resources */,
-				5A8608371708C2CE00CBCAA6 /* Connor.png in Resources */,
-				5A8608391708C2D900CBCAA6 /* Garfinkel.png in Resources */,
-				5A86083B1708C32C00CBCAA6 /* Graham.png in Resources */,
-				5A86083D1708C33200CBCAA6 /* Di Pasquale.png in Resources */,
-				5A86083F1708C33C00CBCAA6 /* Kortina.png in Resources */,
-				5A8608411708C34700CBCAA6 /* Magdon-Ismail.png in Resources */,
-				5A8608431708C35300CBCAA6 /* Staub.png in Resources */,
-				5A8608451708C36800CBCAA6 /* Vaughan.png in Resources */,
-				5A86084B1708C97A00CBCAA6 /* NavigationBarBackgroundDefault.png in Resources */,
-				5A5210461708F46900F26F4D /* VenmoTeamLogo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

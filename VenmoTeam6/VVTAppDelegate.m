@@ -5,11 +5,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Style UINavigationBar.
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"NavigationBarBackgroundDefault"] forBarMetrics:UIBarMetricsDefault];
-    
-    // Create the RootViewController.
-    RootViewController *rootViewController = [[RootViewController alloc] initWithStyle:UITableViewStylePlain];
+    RootViewController *rootViewController = [[RootViewController alloc] initWithNibName:nil bundle:nil];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     _window.rootViewController = navigationController;
