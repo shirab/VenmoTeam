@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:VenmoTeam6.xcodeproj">
+      location = "self:VenmoTeam.xcodeproj">
    </FileRef>
 </Workspace>

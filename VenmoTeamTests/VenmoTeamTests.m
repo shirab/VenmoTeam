@@ -1,14 +1,14 @@
 //
-//  VenmoTeam6Tests.m
-//  VenmoTeam6Tests
+//  VenmoTeamTests.m
+//  VenmoTeamTests
 //
-//  Created by Shira Brettman on 3/21/13.
+//  Created by Shira Brettman on 3/31/13.
 //  Copyright (c) 2013 Venmo. All rights reserved.
 //
 
-#import "VenmoTeam6Tests.h"
+#import "VenmoTeamTests.h"
 
-@implementation VenmoTeam6Tests
+@implementation VenmoTeamTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in VenmoTeam6Tests");
+    STFail(@"Unit tests are not implemented yet in VenmoTeamTests");
 }
 
 @end

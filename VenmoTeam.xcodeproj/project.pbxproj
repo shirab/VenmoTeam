@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A3DEF9117091A7A00C69287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9017091A7A00C69287 /* UIKit.framework */; };
+		5A3DEF9317091A7B00C69287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9217091A7A00C69287 /* Foundation.framework */; };
+		5A3DEF9517091A7B00C69287 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */; };
+		5A3DEF9B17091A7B00C69287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEF9917091A7B00C69287 /* InfoPlist.strings */; };
+		5A3DEF9D17091A7B00C69287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEF9C17091A7B00C69287 /* main.m */; };
+		5A3DEFA117091A7B00C69287 /* VVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA017091A7B00C69287 /* VVTAppDelegate.m */; };
+		5A3DEFA317091A7B00C69287 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA217091A7B00C69287 /* Default.png */; };
+		5A3DEFA517091A7B00C69287 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA417091A7B00C69287 /* Default@2x.png */; };
+		5A3DEFA717091A7B00C69287 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA617091A7B00C69287 /* Default-568h@2x.png */; };
+		5A3DEFAF17091A7B00C69287 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEFAE17091A7B00C69287 /* SenTestingKit.framework */; };
+		5A3DEFB017091A7B00C69287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9017091A7A00C69287 /* UIKit.framework */; };
+		5A3DEFB117091A7B00C69287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9217091A7A00C69287 /* Foundation.framework */; };
+		5A3DEFB917091A7B00C69287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFB717091A7B00C69287 /* InfoPlist.strings */; };
+		5A3DEFBC17091A7B00C69287 /* VenmoTeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */; };
+		5A3DEFC717091AA300C69287 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC617091AA300C69287 /* RootViewController.m */; };
+		5A3DEFCA17091ADD00C69287 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC917091ADD00C69287 /* DetailViewController.m */; };
+		5A3DEFCD17091AFA00C69287 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFCC17091AFA00C69287 /* Member.m */; };
+		5A3DEFD617091B8B00C69287 /* AboutTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFCF17091B8B00C69287 /* AboutTitle@2x.png */; };
+		5A3DEFD717091B8B00C69287 /* Ansar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFD017091B8B00C69287 /* Ansar.png */; };
+		5A3DEFD817091B8B00C69287 /* Bentert.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFD117091B8B00C69287 /* Bentert.png */; };
+		5A3DEFD917091B8B00C69287 /* Brettman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFD217091B8B00C69287 /* Brettman.png */; };
+		5A3DEFDA17091B8B00C69287 /* CellBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFD317091B8B00C69287 /* CellBackground.png */; };
+		5A3DEFDB17091B8B00C69287 /* Connor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFD417091B8B00C69287 /* Connor.png */; };
+		5A3DEFDC17091B8B00C69287 /* Cosson.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFD517091B8B00C69287 /* Cosson.png */; };
+		5A3DEFF317091BA000C69287 /* Di Pasquale.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFDD17091BA000C69287 /* Di Pasquale.png */; };
+		5A3DEFF417091BA000C69287 /* Einfrank.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFDE17091BA000C69287 /* Einfrank.png */; };
+		5A3DEFF517091BA000C69287 /* Garfinkel.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFDF17091BA000C69287 /* Garfinkel.png */; };
+		5A3DEFF617091BA000C69287 /* Graham.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE017091BA000C69287 /* Graham.png */; };
+		5A3DEFF717091BA000C69287 /* Greaney.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE117091BA000C69287 /* Greaney.png */; };
+		5A3DEFF817091BA000C69287 /* Hamilton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE217091BA000C69287 /* Hamilton.png */; };
+		5A3DEFF917091BA000C69287 /* Hitti.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE317091BA000C69287 /* Hitti.png */; };
+		5A3DEFFA17091BA000C69287 /* Hodelin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE417091BA000C69287 /* Hodelin.png */; };
+		5A3DEFFB17091BA000C69287 /* Kimchi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE517091BA000C69287 /* Kimchi.png */; };
+		5A3DEFFC17091BA000C69287 /* Kortina.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE617091BA000C69287 /* Kortina.png */; };
+		5A3DEFFD17091BA000C69287 /* Kristensen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE717091BA000C69287 /* Kristensen.png */; };
+		5A3DEFFE17091BA000C69287 /* Magdon-Ismail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE817091BA000C69287 /* Magdon-Ismail.png */; };
+		5A3DEFFF17091BA000C69287 /* Majeed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFE917091BA000C69287 /* Majeed.png */; };
+		5A3DF00017091BA000C69287 /* McFarlane.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFEA17091BA000C69287 /* McFarlane.png */; };
+		5A3DF00117091BA000C69287 /* Mirman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFEB17091BA000C69287 /* Mirman.png */; };
+		5A3DF00217091BA000C69287 /* NavigationBarBackgroundDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFEC17091BA000C69287 /* NavigationBarBackgroundDefault.png */; };
+		5A3DF00317091BA000C69287 /* Sherwood.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFED17091BA000C69287 /* Sherwood.png */; };
+		5A3DF00417091BA000C69287 /* Staub.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFEE17091BA000C69287 /* Staub.png */; };
+		5A3DF00517091BA000C69287 /* Vaughan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFEF17091BA000C69287 /* Vaughan.png */; };
+		5A3DF00617091BA000C69287 /* VenmoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFF017091BA000C69287 /* VenmoBackground.png */; };
+		5A3DF00717091BA000C69287 /* VenmoTeamLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFF117091BA000C69287 /* VenmoTeamLogo@2x.png */; };
+		5A3DF00817091BA000C69287 /* Zakin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFF217091BA000C69287 /* Zakin.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A3DEFB217091A7B00C69287 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A3DEF8517091A7A00C69287 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A3DEF8C17091A7A00C69287;
+			remoteInfo = VenmoTeam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A3DEF8D17091A7A00C69287 /* VenmoTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3DEF9017091A7A00C69287 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A3DEF9217091A7A00C69287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A3DEF9817091A7B00C69287 /* VenmoTeam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoTeam-Info.plist"; sourceTree = "<group>"; };
+		5A3DEF9A17091A7B00C69287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A3DEF9C17091A7B00C69287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A3DEF9E17091A7B00C69287 /* VenmoTeam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VenmoTeam-Prefix.pch"; sourceTree = "<group>"; };
+		5A3DEF9F17091A7B00C69287 /* VVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVTAppDelegate.h; sourceTree = "<group>"; };
+		5A3DEFA017091A7B00C69287 /* VVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVTAppDelegate.m; sourceTree = "<group>"; };
+		5A3DEFA217091A7B00C69287 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5A3DEFA417091A7B00C69287 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5A3DEFA617091A7B00C69287 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5A3DEFAD17091A7B00C69287 /* VenmoTeamTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenmoTeamTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3DEFAE17091A7B00C69287 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A3DEFB617091A7B00C69287 /* VenmoTeamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoTeamTests-Info.plist"; sourceTree = "<group>"; };
+		5A3DEFB817091A7B00C69287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A3DEFBA17091A7B00C69287 /* VenmoTeamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenmoTeamTests.h; sourceTree = "<group>"; };
+		5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenmoTeamTests.m; sourceTree = "<group>"; };
+		5A3DEFC517091AA300C69287 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5A3DEFC617091AA300C69287 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5A3DEFC817091ADD00C69287 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5A3DEFC917091ADD00C69287 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5A3DEFCB17091AFA00C69287 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		5A3DEFCC17091AFA00C69287 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		5A3DEFCF17091B8B00C69287 /* AboutTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AboutTitle@2x.png"; sourceTree = "<group>"; };
+		5A3DEFD017091B8B00C69287 /* Ansar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ansar.png; sourceTree = "<group>"; };
+		5A3DEFD117091B8B00C69287 /* Bentert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bentert.png; sourceTree = "<group>"; };
+		5A3DEFD217091B8B00C69287 /* Brettman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brettman.png; sourceTree = "<group>"; };
+		5A3DEFD317091B8B00C69287 /* CellBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CellBackground.png; sourceTree = "<group>"; };
+		5A3DEFD417091B8B00C69287 /* Connor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Connor.png; sourceTree = "<group>"; };
+		5A3DEFD517091B8B00C69287 /* Cosson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cosson.png; sourceTree = "<group>"; };
+		5A3DEFDD17091BA000C69287 /* Di Pasquale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Di Pasquale.png"; sourceTree = "<group>"; };
+		5A3DEFDE17091BA000C69287 /* Einfrank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Einfrank.png; sourceTree = "<group>"; };
+		5A3DEFDF17091BA000C69287 /* Garfinkel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garfinkel.png; sourceTree = "<group>"; };
+		5A3DEFE017091BA000C69287 /* Graham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graham.png; sourceTree = "<group>"; };
+		5A3DEFE117091BA000C69287 /* Greaney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Greaney.png; sourceTree = "<group>"; };
+		5A3DEFE217091BA000C69287 /* Hamilton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hamilton.png; sourceTree = "<group>"; };
+		5A3DEFE317091BA000C69287 /* Hitti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hitti.png; sourceTree = "<group>"; };
+		5A3DEFE417091BA000C69287 /* Hodelin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hodelin.png; sourceTree = "<group>"; };
+		5A3DEFE517091BA000C69287 /* Kimchi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kimchi.png; sourceTree = "<group>"; };
+		5A3DEFE617091BA000C69287 /* Kortina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kortina.png; sourceTree = "<group>"; };
+		5A3DEFE717091BA000C69287 /* Kristensen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kristensen.png; sourceTree = "<group>"; };
+		5A3DEFE817091BA000C69287 /* Magdon-Ismail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Magdon-Ismail.png"; sourceTree = "<group>"; };
+		5A3DEFE917091BA000C69287 /* Majeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Majeed.png; sourceTree = "<group>"; };
+		5A3DEFEA17091BA000C69287 /* McFarlane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = McFarlane.png; sourceTree = "<group>"; };
+		5A3DEFEB17091BA000C69287 /* Mirman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mirman.png; sourceTree = "<group>"; };
+		5A3DEFEC17091BA000C69287 /* NavigationBarBackgroundDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBarBackgroundDefault.png; sourceTree = "<group>"; };
+		5A3DEFED17091BA000C69287 /* Sherwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sherwood.png; sourceTree = "<group>"; };
+		5A3DEFEE17091BA000C69287 /* Staub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Staub.png; sourceTree = "<group>"; };
+		5A3DEFEF17091BA000C69287 /* Vaughan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vaughan.png; sourceTree = "<group>"; };
+		5A3DEFF017091BA000C69287 /* VenmoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VenmoBackground.png; sourceTree = "<group>"; };
+		5A3DEFF117091BA000C69287 /* VenmoTeamLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VenmoTeamLogo@2x.png"; sourceTree = "<group>"; };
+		5A3DEFF217091BA000C69287 /* Zakin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zakin.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A3DEF8A17091A7A00C69287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3DEF9117091A7A00C69287 /* UIKit.framework in Frameworks */,
+				5A3DEF9317091A7B00C69287 /* Foundation.framework in Frameworks */,
+				5A3DEF9517091A7B00C69287 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3DEFA917091A7B00C69287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3DEFAF17091A7B00C69287 /* SenTestingKit.framework in Frameworks */,
+				5A3DEFB017091A7B00C69287 /* UIKit.framework in Frameworks */,
+				5A3DEFB117091A7B00C69287 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A3DEF8417091A7A00C69287 = {
+			isa = PBXGroup;
+			children = (
+				5A3DEF9617091A7B00C69287 /* VenmoTeam */,
+				5A3DEFB417091A7B00C69287 /* VenmoTeamTests */,
+				5A3DEF8F17091A7A00C69287 /* Frameworks */,
+				5A3DEF8E17091A7A00C69287 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A3DEF8E17091A7A00C69287 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A3DEF8D17091A7A00C69287 /* VenmoTeam.app */,
+				5A3DEFAD17091A7B00C69287 /* VenmoTeamTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A3DEF8F17091A7A00C69287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A3DEF9017091A7A00C69287 /* UIKit.framework */,
+				5A3DEF9217091A7A00C69287 /* Foundation.framework */,
+				5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */,
+				5A3DEFAE17091A7B00C69287 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A3DEF9617091A7B00C69287 /* VenmoTeam */ = {
+			isa = PBXGroup;
+			children = (
+				5A3DEF9F17091A7B00C69287 /* VVTAppDelegate.h */,
+				5A3DEFA017091A7B00C69287 /* VVTAppDelegate.m */,
+				5A3DEFC517091AA300C69287 /* RootViewController.h */,
+				5A3DEFC617091AA300C69287 /* RootViewController.m */,
+				5A3DEFC817091ADD00C69287 /* DetailViewController.h */,
+				5A3DEFC917091ADD00C69287 /* DetailViewController.m */,
+				5A3DEFCB17091AFA00C69287 /* Member.h */,
+				5A3DEFCC17091AFA00C69287 /* Member.m */,
+				5A3DEFCE17091B3D00C69287 /* Resources */,
+				5A3DEF9717091A7B00C69287 /* Supporting Files */,
+			);
+			path = VenmoTeam;
+			sourceTree = "<group>";
+		};
+		5A3DEF9717091A7B00C69287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A3DEF9817091A7B00C69287 /* VenmoTeam-Info.plist */,
+				5A3DEF9917091A7B00C69287 /* InfoPlist.strings */,
+				5A3DEF9C17091A7B00C69287 /* main.m */,
+				5A3DEF9E17091A7B00C69287 /* VenmoTeam-Prefix.pch */,
+				5A3DEFA217091A7B00C69287 /* Default.png */,
+				5A3DEFA417091A7B00C69287 /* Default@2x.png */,
+				5A3DEFA617091A7B00C69287 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A3DEFB417091A7B00C69287 /* VenmoTeamTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A3DEFBA17091A7B00C69287 /* VenmoTeamTests.h */,
+				5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */,
+				5A3DEFB517091A7B00C69287 /* Supporting Files */,
+			);
+			path = VenmoTeamTests;
+			sourceTree = "<group>";
+		};
+		5A3DEFB517091A7B00C69287 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A3DEFB617091A7B00C69287 /* VenmoTeamTests-Info.plist */,
+				5A3DEFB717091A7B00C69287 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A3DEFCE17091B3D00C69287 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A3DEFDD17091BA000C69287 /* Di Pasquale.png */,
+				5A3DEFDE17091BA000C69287 /* Einfrank.png */,
+				5A3DEFDF17091BA000C69287 /* Garfinkel.png */,
+				5A3DEFE017091BA000C69287 /* Graham.png */,
+				5A3DEFE117091BA000C69287 /* Greaney.png */,
+				5A3DEFE217091BA000C69287 /* Hamilton.png */,
+				5A3DEFE317091BA000C69287 /* Hitti.png */,
+				5A3DEFE417091BA000C69287 /* Hodelin.png */,
+				5A3DEFE517091BA000C69287 /* Kimchi.png */,
+				5A3DEFE617091BA000C69287 /* Kortina.png */,
+				5A3DEFE717091BA000C69287 /* Kristensen.png */,
+				5A3DEFE817091BA000C69287 /* Magdon-Ismail.png */,
+				5A3DEFE917091BA000C69287 /* Majeed.png */,
+				5A3DEFEA17091BA000C69287 /* McFarlane.png */,
+				5A3DEFEB17091BA000C69287 /* Mirman.png */,
+				5A3DEFEC17091BA000C69287 /* NavigationBarBackgroundDefault.png */,
+				5A3DEFED17091BA000C69287 /* Sherwood.png */,
+				5A3DEFEE17091BA000C69287 /* Staub.png */,
+				5A3DEFEF17091BA000C69287 /* Vaughan.png */,
+				5A3DEFF017091BA000C69287 /* VenmoBackground.png */,
+				5A3DEFF117091BA000C69287 /* VenmoTeamLogo@2x.png */,
+				5A3DEFF217091BA000C69287 /* Zakin.png */,
+				5A3DEFCF17091B8B00C69287 /* AboutTitle@2x.png */,
+				5A3DEFD017091B8B00C69287 /* Ansar.png */,
+				5A3DEFD117091B8B00C69287 /* Bentert.png */,
+				5A3DEFD217091B8B00C69287 /* Brettman.png */,
+				5A3DEFD317091B8B00C69287 /* CellBackground.png */,
+				5A3DEFD417091B8B00C69287 /* Connor.png */,
+				5A3DEFD517091B8B00C69287 /* Cosson.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A3DEF8C17091A7A00C69287 /* VenmoTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3DEFBF17091A7B00C69287 /* Build configuration list for PBXNativeTarget "VenmoTeam" */;
+			buildPhases = (
+				5A3DEF8917091A7A00C69287 /* Sources */,
+				5A3DEF8A17091A7A00C69287 /* Frameworks */,
+				5A3DEF8B17091A7A00C69287 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VenmoTeam;
+			productName = VenmoTeam;
+			productReference = 5A3DEF8D17091A7A00C69287 /* VenmoTeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A3DEFAC17091A7B00C69287 /* VenmoTeamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A3DEFC217091A7B00C69287 /* Build configuration list for PBXNativeTarget "VenmoTeamTests" */;
+			buildPhases = (
+				5A3DEFA817091A7B00C69287 /* Sources */,
+				5A3DEFA917091A7B00C69287 /* Frameworks */,
+				5A3DEFAA17091A7B00C69287 /* Resources */,
+				5A3DEFAB17091A7B00C69287 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A3DEFB317091A7B00C69287 /* PBXTargetDependency */,
+			);
+			name = VenmoTeamTests;
+			productName = VenmoTeamTests;
+			productReference = 5A3DEFAD17091A7B00C69287 /* VenmoTeamTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A3DEF8517091A7A00C69287 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VVT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Venmo;
+			};
+			buildConfigurationList = 5A3DEF8817091A7A00C69287 /* Build configuration list for PBXProject "VenmoTeam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A3DEF8417091A7A00C69287;
+			productRefGroup = 5A3DEF8E17091A7A00C69287 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A3DEF8C17091A7A00C69287 /* VenmoTeam */,
+				5A3DEFAC17091A7B00C69287 /* VenmoTeamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A3DEF8B17091A7A00C69287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3DEF9B17091A7B00C69287 /* InfoPlist.strings in Resources */,
+				5A3DEFA317091A7B00C69287 /* Default.png in Resources */,
+				5A3DEFA517091A7B00C69287 /* Default@2x.png in Resources */,
+				5A3DEFA717091A7B00C69287 /* Default-568h@2x.png in Resources */,
+				5A3DEFD617091B8B00C69287 /* AboutTitle@2x.png in Resources */,
+				5A3DEFD717091B8B00C69287 /* Ansar.png in Resources */,
+				5A3DEFD817091B8B00C69287 /* Bentert.png in Resources */,
+				5A3DEFD917091B8B00C69287 /* Brettman.png in Resources */,
+				5A3DEFDA17091B8B00C69287 /* CellBackground.png in Resources */,
+				5A3DEFDB17091B8B00C69287 /* Connor.png in Resources */,
+				5A3DEFDC17091B8B00C69287 /* Cosson.png in Resources */,
+				5A3DEFF317091BA000C69287 /* Di Pasquale.png in Resources */,
+				5A3DEFF417091BA000C69287 /* Einfrank.png in Resources */,
+				5A3DEFF517091BA000C69287 /* Garfinkel.png in Resources */,
+				5A3DEFF617091BA000C69287 /* Graham.png in Resources */,
+				5A3DEFF717091BA000C69287 /* Greaney.png in Resources */,
+				5A3DEFF817091BA000C69287 /* Hamilton.png in Resources */,
+				5A3DEFF917091BA000C69287 /* Hitti.png in Resources */,
+				5A3DEFFA17091BA000C69287 /* Hodelin.png in Resources */,
+				5A3DEFFB17091BA000C69287 /* Kimchi.png in Resources */,
+				5A3DEFFC17091BA000C69287 /* Kortina.png in Resources */,
+				5A3DEFFD17091BA000C69287 /* Kristensen.png in Resources */,
+				5A3DEFFE17091BA000C69287 /* Magdon-Ismail.png in Resources */,
+				5A3DEFFF17091BA000C69287 /* Majeed.png in Resources */,
+				5A3DF00017091BA000C69287 /* McFarlane.png in Resources */,
+				5A3DF00117091BA000C69287 /* Mirman.png in Resources */,
+				5A3DF00217091BA000C69287 /* NavigationBarBackgroundDefault.png in Resources */,
+				5A3DF00317091BA000C69287 /* Sherwood.png in Resources */,
+				5A3DF00417091BA000C69287 /* Staub.png in Resources */,
+				5A3DF00517091BA000C69287 /* Vaughan.png in Resources */,
+				5A3DF00617091BA000C69287 /* VenmoBackground.png in Resources */,
+				5A3DF00717091BA000C69287 /* VenmoTeamLogo@2x.png in Resources */,
+				5A3DF00817091BA000C69287 /* Zakin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3DEFAA17091A7B00C69287 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3DEFB917091A7B00C69287 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A3DEFAB17091A7B00C69287 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A3DEF8917091A7A00C69287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3DEF9D17091A7B00C69287 /* main.m in Sources */,
+				5A3DEFA117091A7B00C69287 /* VVTAppDelegate.m in Sources */,
+				5A3DEFC717091AA300C69287 /* RootViewController.m in Sources */,
+				5A3DEFCA17091ADD00C69287 /* DetailViewController.m in Sources */,
+				5A3DEFCD17091AFA00C69287 /* Member.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3DEFA817091A7B00C69287 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3DEFBC17091A7B00C69287 /* VenmoTeamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A3DEFB317091A7B00C69287 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A3DEF8C17091A7A00C69287 /* VenmoTeam */;
+			targetProxy = 5A3DEFB217091A7B00C69287 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A3DEF9917091A7B00C69287 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A3DEF9A17091A7B00C69287 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A3DEFB717091A7B00C69287 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A3DEFB817091A7B00C69287 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A3DEFBD17091A7B00C69287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A3DEFBE17091A7B00C69287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A3DEFC017091A7B00C69287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
+				INFOPLIST_FILE = "VenmoTeam/VenmoTeam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A3DEFC117091A7B00C69287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
+				INFOPLIST_FILE = "VenmoTeam/VenmoTeam-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A3DEFC317091A7B00C69287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VenmoTeam.app/VenmoTeam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
+				INFOPLIST_FILE = "VenmoTeamTests/VenmoTeamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5A3DEFC417091A7B00C69287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VenmoTeam.app/VenmoTeam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
+				INFOPLIST_FILE = "VenmoTeamTests/VenmoTeamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A3DEF8817091A7A00C69287 /* Build configuration list for PBXProject "VenmoTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3DEFBD17091A7B00C69287 /* Debug */,
+				5A3DEFBE17091A7B00C69287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A3DEFBF17091A7B00C69287 /* Build configuration list for PBXNativeTarget "VenmoTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3DEFC017091A7B00C69287 /* Debug */,
+				5A3DEFC117091A7B00C69287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A3DEFC217091A7B00C69287 /* Build configuration list for PBXNativeTarget "VenmoTeamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A3DEFC317091A7B00C69287 /* Debug */,
+				5A3DEFC417091A7B00C69287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A3DEF8517091A7A00C69287 /* Project object */;
+}

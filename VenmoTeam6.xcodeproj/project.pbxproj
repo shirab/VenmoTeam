@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0C91761709142600F683E7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C91751709142600F683E7 /* RootViewController.m */; };
+		5A0C91791709143C00F683E7 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C91781709143C00F683E7 /* Member.m */; };
+		5A0C92161709174B00F683E7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C92151709174B00F683E7 /* DetailViewController.m */; };
+		5A0C92191709175900F683E7 /* VVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C92181709175900F683E7 /* VVTAppDelegate.m */; };
 		5A31CE6D1704C92C0051B936 /* Kristensen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE541704C92C0051B936 /* Kristensen.png */; };
 		5A31CE6E1704C92C0051B936 /* Mirman.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE551704C92C0051B936 /* Mirman.png */; };
 		5A31CE701704C92C0051B936 /* Ansar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A31CE571704C92C0051B936 /* Ansar.png */; };
@@ -39,7 +43,6 @@
 		5A42D04E16FB7774004B3BD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42D04D16FB7774004B3BD7 /* CoreGraphics.framework */; };
 		5A42D05416FB7774004B3BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A42D05216FB7774004B3BD7 /* InfoPlist.strings */; };
 		5A42D05616FB7774004B3BD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A42D05516FB7774004B3BD7 /* main.m */; };
-		5A42D05A16FB7774004B3BD7 /* VVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A42D05916FB7774004B3BD7 /* VVTAppDelegate.m */; };
 		5A42D05C16FB7774004B3BD7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A42D05B16FB7774004B3BD7 /* Default.png */; };
 		5A42D05E16FB7774004B3BD7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A42D05D16FB7774004B3BD7 /* Default@2x.png */; };
 		5A42D06016FB7774004B3BD7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A42D05F16FB7774004B3BD7 /* Default-568h@2x.png */; };
@@ -48,9 +51,23 @@
 		5A42D06A16FB7774004B3BD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A42D04B16FB7774004B3BD7 /* Foundation.framework */; };
 		5A42D07216FB7774004B3BD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A42D07016FB7774004B3BD7 /* InfoPlist.strings */; };
 		5A42D07516FB7774004B3BD7 /* VenmoTeam6Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A42D07416FB7774004B3BD7 /* VenmoTeam6Tests.m */; };
+<<<<<<< HEAD
 		5A42D08016FB77B5004B3BD7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A42D07F16FB77B5004B3BD7 /* RootViewController.m */; };
 		5A42D08316FB7858004B3BD7 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A42D08216FB7858004B3BD7 /* Member.m */; };
 		5A61E9B316FD1FC100695206 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A61E9B216FD1FC100695206 /* DetailViewController.m */; };
+=======
+		5A5210461708F46900F26F4D /* VenmoTeamLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5210451708F46900F26F4D /* VenmoTeamLogo@2x.png */; };
+		5A8608351708C2C600CBCAA6 /* Bentert.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608341708C2C600CBCAA6 /* Bentert.png */; };
+		5A8608371708C2CE00CBCAA6 /* Connor.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608361708C2CE00CBCAA6 /* Connor.png */; };
+		5A8608391708C2D900CBCAA6 /* Garfinkel.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608381708C2D900CBCAA6 /* Garfinkel.png */; };
+		5A86083B1708C32C00CBCAA6 /* Graham.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A86083A1708C32C00CBCAA6 /* Graham.png */; };
+		5A86083D1708C33200CBCAA6 /* Di Pasquale.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A86083C1708C33200CBCAA6 /* Di Pasquale.png */; };
+		5A86083F1708C33C00CBCAA6 /* Kortina.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A86083E1708C33C00CBCAA6 /* Kortina.png */; };
+		5A8608411708C34700CBCAA6 /* Magdon-Ismail.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608401708C34700CBCAA6 /* Magdon-Ismail.png */; };
+		5A8608431708C35300CBCAA6 /* Staub.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608421708C35300CBCAA6 /* Staub.png */; };
+		5A8608451708C36800CBCAA6 /* Vaughan.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A8608441708C36800CBCAA6 /* Vaughan.png */; };
+		5A86084B1708C97A00CBCAA6 /* NavigationBarBackgroundDefault.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A86084A1708C97A00CBCAA6 /* NavigationBarBackgroundDefault.png */; };
+>>>>>>> ef2ba0c04109e73a80aed4414e8df7d5fd957c29
 		5ABBB45216FD835900B99B1F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5ABBB45116FD835900B99B1F /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +82,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A0C91751709142600F683E7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5A0C91771709143C00F683E7 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		5A0C91781709143C00F683E7 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		5A0C917A1709144A00F683E7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5A0C92141709174B00F683E7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5A0C92151709174B00F683E7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5A0C92171709175900F683E7 /* VVTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTAppDelegate.h; sourceTree = "<group>"; };
+		5A0C92181709175900F683E7 /* VVTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTAppDelegate.m; sourceTree = "<group>"; };
 		5A31CE541704C92C0051B936 /* Kristensen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kristensen.png; sourceTree = "<group>"; };
 		5A31CE551704C92C0051B936 /* Mirman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mirman.png; sourceTree = "<group>"; };
 		5A31CE571704C92C0051B936 /* Ansar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ansar.png; sourceTree = "<group>"; };
@@ -100,8 +125,6 @@
 		5A42D05316FB7774004B3BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A42D05516FB7774004B3BD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A42D05716FB7774004B3BD7 /* VenmoTeam6-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VenmoTeam6-Prefix.pch"; sourceTree = "<group>"; };
-		5A42D05816FB7774004B3BD7 /* VVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVTAppDelegate.h; sourceTree = "<group>"; };
-		5A42D05916FB7774004B3BD7 /* VVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVTAppDelegate.m; sourceTree = "<group>"; };
 		5A42D05B16FB7774004B3BD7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5A42D05D16FB7774004B3BD7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5A42D05F16FB7774004B3BD7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -111,12 +134,26 @@
 		5A42D07116FB7774004B3BD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A42D07316FB7774004B3BD7 /* VenmoTeam6Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenmoTeam6Tests.h; sourceTree = "<group>"; };
 		5A42D07416FB7774004B3BD7 /* VenmoTeam6Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenmoTeam6Tests.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		5A42D07E16FB77B5004B3BD7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		5A42D07F16FB77B5004B3BD7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		5A42D08116FB7858004B3BD7 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
 		5A42D08216FB7858004B3BD7 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
 		5A61E9B116FD1FC100695206 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5A61E9B216FD1FC100695206 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+=======
+		5A5210451708F46900F26F4D /* VenmoTeamLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VenmoTeamLogo@2x.png"; sourceTree = "<group>"; };
+		5A8608341708C2C600CBCAA6 /* Bentert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bentert.png; sourceTree = "<group>"; };
+		5A8608361708C2CE00CBCAA6 /* Connor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Connor.png; sourceTree = "<group>"; };
+		5A8608381708C2D900CBCAA6 /* Garfinkel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garfinkel.png; sourceTree = "<group>"; };
+		5A86083A1708C32C00CBCAA6 /* Graham.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Graham.png; sourceTree = "<group>"; };
+		5A86083C1708C33200CBCAA6 /* Di Pasquale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Di Pasquale.png"; sourceTree = "<group>"; };
+		5A86083E1708C33C00CBCAA6 /* Kortina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kortina.png; sourceTree = "<group>"; };
+		5A8608401708C34700CBCAA6 /* Magdon-Ismail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Magdon-Ismail.png"; sourceTree = "<group>"; };
+		5A8608421708C35300CBCAA6 /* Staub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Staub.png; sourceTree = "<group>"; };
+		5A8608441708C36800CBCAA6 /* Vaughan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vaughan.png; sourceTree = "<group>"; };
+		5A86084A1708C97A00CBCAA6 /* NavigationBarBackgroundDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavigationBarBackgroundDefault.png; sourceTree = "<group>"; };
+>>>>>>> ef2ba0c04109e73a80aed4414e8df7d5fd957c29
 		5ABBB45116FD835900B99B1F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,6 +248,7 @@
 		5A42D04F16FB7774004B3BD7 /* VenmoTeam6 */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				5A31CE531704C8E50051B936 /* Resources */,
 				5A42D05816FB7774004B3BD7 /* VVTAppDelegate.h */,
 				5A42D05916FB7774004B3BD7 /* VVTAppDelegate.m */,
@@ -220,6 +258,16 @@
 				5A61E9B216FD1FC100695206 /* DetailViewController.m */,
 				5A42D08116FB7858004B3BD7 /* Member.h */,
 				5A42D08216FB7858004B3BD7 /* Member.m */,
+=======
+				5A0C92141709174B00F683E7 /* DetailViewController.h */,
+				5A0C92151709174B00F683E7 /* DetailViewController.m */,
+				5A0C92171709175900F683E7 /* VVTAppDelegate.h */,
+				5A0C92181709175900F683E7 /* VVTAppDelegate.m */,
+				5A0C91771709143C00F683E7 /* Member.h */,
+				5A0C91781709143C00F683E7 /* Member.m */,
+				5A0C917A1709144A00F683E7 /* RootViewController.h */,
+				5A0C91751709142600F683E7 /* RootViewController.m */,
+>>>>>>> ef2ba0c04109e73a80aed4414e8df7d5fd957c29
 				5ABBB45116FD835900B99B1F /* README.md */,
 				5A42D05016FB7774004B3BD7 /* Supporting Files */,
 			);
@@ -398,10 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A42D05616FB7774004B3BD7 /* main.m in Sources */,
-				5A42D05A16FB7774004B3BD7 /* VVTAppDelegate.m in Sources */,
-				5A42D08016FB77B5004B3BD7 /* RootViewController.m in Sources */,
-				5A42D08316FB7858004B3BD7 /* Member.m in Sources */,
-				5A61E9B316FD1FC100695206 /* DetailViewController.m in Sources */,
+				5A0C91761709142600F683E7 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +455,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A42D07516FB7774004B3BD7 /* VenmoTeam6Tests.m in Sources */,
+				5A0C91791709143C00F683E7 /* Member.m in Sources */,
+				5A0C92161709174B00F683E7 /* DetailViewController.m in Sources */,
+				5A0C92191709175900F683E7 /* VVTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
