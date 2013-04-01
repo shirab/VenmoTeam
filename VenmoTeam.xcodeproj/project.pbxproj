@@ -53,7 +53,7 @@
 		5A3DF00617091BA000C69287 /* VenmoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFF017091BA000C69287 /* VenmoBackground.png */; };
 		5A3DF00717091BA000C69287 /* VenmoTeamLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFF117091BA000C69287 /* VenmoTeamLogo@2x.png */; };
 		5A3DF00817091BA000C69287 /* Zakin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFF217091BA000C69287 /* Zakin.png */; };
-		5A9447E617092B7D00FE6C27 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A9447E517092B7D00FE6C27 /* README.md */; };
+		5A9447EE17092FD700FE6C27 /* readme.MD in Resources */ = {isa = PBXBuildFile; fileRef = 5A9447ED17092FD700FE6C27 /* readme.MD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,7 +121,7 @@
 		5A3DEFF017091BA000C69287 /* VenmoBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VenmoBackground.png; sourceTree = "<group>"; };
 		5A3DEFF117091BA000C69287 /* VenmoTeamLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VenmoTeamLogo@2x.png"; sourceTree = "<group>"; };
 		5A3DEFF217091BA000C69287 /* Zakin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zakin.png; sourceTree = "<group>"; };
-		5A9447E517092B7D00FE6C27 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = "../../../Downloads/VenmoTeam-master/VenmoTeam6/README.md"; sourceTree = "<group>"; };
+		5A9447ED17092FD700FE6C27 /* readme.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.MD; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				5A3DEF9F17091A7B00C69287 /* VVTAppDelegate.h */,
+				5A9447ED17092FD700FE6C27 /* readme.MD */,
 				5A3DEFA017091A7B00C69287 /* VVTAppDelegate.m */,
 				5A3DEFC517091AA300C69287 /* RootViewController.h */,
 				5A3DEFC617091AA300C69287 /* RootViewController.m */,
@@ -189,7 +190,6 @@
 				5A3DEFC917091ADD00C69287 /* DetailViewController.m */,
 				5A3DEFCB17091AFA00C69287 /* Member.h */,
 				5A3DEFCC17091AFA00C69287 /* Member.m */,
-				5A9447E517092B7D00FE6C27 /* README.md */,
 				5A3DEFCE17091B3D00C69287 /* Resources */,
 				5A3DEF9717091A7B00C69287 /* Supporting Files */,
 			);
@@ -370,7 +370,7 @@
 				5A3DF00617091BA000C69287 /* VenmoBackground.png in Resources */,
 				5A3DF00717091BA000C69287 /* VenmoTeamLogo@2x.png in Resources */,
 				5A3DF00817091BA000C69287 /* Zakin.png in Resources */,
-				5A9447E617092B7D00FE6C27 /* README.md in Resources */,
+				5A9447EE17092FD700FE6C27 /* readme.MD in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
