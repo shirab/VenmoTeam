@@ -10,7 +10,6 @@
 		5A3DEF9117091A7A00C69287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9017091A7A00C69287 /* UIKit.framework */; };
 		5A3DEF9317091A7B00C69287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9217091A7A00C69287 /* Foundation.framework */; };
 		5A3DEF9517091A7B00C69287 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */; };
-		5A3DEF9B17091A7B00C69287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEF9917091A7B00C69287 /* InfoPlist.strings */; };
 		5A3DEF9D17091A7B00C69287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEF9C17091A7B00C69287 /* main.m */; };
 		5A3DEFA117091A7B00C69287 /* VVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA017091A7B00C69287 /* VVTAppDelegate.m */; };
 		5A3DEFA317091A7B00C69287 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA217091A7B00C69287 /* Default.png */; };
@@ -19,7 +18,6 @@
 		5A3DEFAF17091A7B00C69287 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEFAE17091A7B00C69287 /* SenTestingKit.framework */; };
 		5A3DEFB017091A7B00C69287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9017091A7A00C69287 /* UIKit.framework */; };
 		5A3DEFB117091A7B00C69287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9217091A7A00C69287 /* Foundation.framework */; };
-		5A3DEFB917091A7B00C69287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFB717091A7B00C69287 /* InfoPlist.strings */; };
 		5A3DEFBC17091A7B00C69287 /* VenmoTeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */; };
 		5A3DEFC717091AA300C69287 /* VVTMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC617091AA300C69287 /* VVTMembersViewController.m */; };
 		5A3DEFCA17091ADD00C69287 /* VVTMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC917091ADD00C69287 /* VVTMemberViewController.m */; };
@@ -72,7 +70,6 @@
 		5A3DEF9217091A7A00C69287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5A3DEF9817091A7B00C69287 /* VenmoTeam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoTeam-Info.plist"; sourceTree = "<group>"; };
-		5A3DEF9A17091A7B00C69287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A3DEF9C17091A7B00C69287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A3DEF9E17091A7B00C69287 /* VenmoTeam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VenmoTeam-Prefix.pch"; sourceTree = "<group>"; };
 		5A3DEF9F17091A7B00C69287 /* VVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVTAppDelegate.h; sourceTree = "<group>"; };
@@ -83,7 +80,6 @@
 		5A3DEFAD17091A7B00C69287 /* VenmoTeamTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenmoTeamTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3DEFAE17091A7B00C69287 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5A3DEFB617091A7B00C69287 /* VenmoTeamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoTeamTests-Info.plist"; sourceTree = "<group>"; };
-		5A3DEFB817091A7B00C69287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A3DEFBA17091A7B00C69287 /* VenmoTeamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenmoTeamTests.h; sourceTree = "<group>"; };
 		5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenmoTeamTests.m; sourceTree = "<group>"; };
 		5A3DEFC517091AA300C69287 /* VVTMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTMembersViewController.h; sourceTree = "<group>"; };
@@ -200,7 +196,6 @@
 			isa = PBXGroup;
 			children = (
 				5A3DEF9817091A7B00C69287 /* VenmoTeam-Info.plist */,
-				5A3DEF9917091A7B00C69287 /* InfoPlist.strings */,
 				5A3DEF9C17091A7B00C69287 /* main.m */,
 				5A3DEF9E17091A7B00C69287 /* VenmoTeam-Prefix.pch */,
 				5A3DEFA217091A7B00C69287 /* Default.png */,
@@ -224,7 +219,6 @@
 			isa = PBXGroup;
 			children = (
 				5A3DEFB617091A7B00C69287 /* VenmoTeamTests-Info.plist */,
-				5A3DEFB717091A7B00C69287 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -337,7 +331,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3DEF9B17091A7B00C69287 /* InfoPlist.strings in Resources */,
 				5A3DEFA317091A7B00C69287 /* Default.png in Resources */,
 				5A3DEFA517091A7B00C69287 /* Default@2x.png in Resources */,
 				5A3DEFA717091A7B00C69287 /* Default-568h@2x.png in Resources */,
@@ -378,7 +371,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3DEFB917091A7B00C69287 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,25 +422,6 @@
 			targetProxy = 5A3DEFB217091A7B00C69287 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5A3DEF9917091A7B00C69287 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A3DEF9A17091A7B00C69287 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5A3DEFB717091A7B00C69287 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A3DEFB817091A7B00C69287 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5A3DEFBD17091A7B00C69287 /* Debug */ = {
