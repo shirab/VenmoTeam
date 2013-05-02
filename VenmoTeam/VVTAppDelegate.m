@@ -9,7 +9,7 @@
 {
     // Style `UINavigationBar`.
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"NavigationBarBackgroundDefault"] forBarMetrics:UIBarMetricsDefault];
-    
+
     // Create `rootViewController`.
     VVTMembersViewController *membersViewController = [[VVTMembersViewController alloc] initWithStyle:UITableViewStylePlain];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:membersViewController];
