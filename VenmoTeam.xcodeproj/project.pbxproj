@@ -124,9 +124,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3DEF9117091A7A00C69287 /* UIKit.framework in Frameworks */,
 				5A3DEF9317091A7B00C69287 /* Foundation.framework in Frameworks */,
 				5A3DEF9517091A7B00C69287 /* CoreGraphics.framework in Frameworks */,
+				5A3DEF9117091A7A00C69287 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,9 +134,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3DEFB117091A7B00C69287 /* Foundation.framework in Frameworks */,
 				5A3DEFAF17091A7B00C69287 /* SenTestingKit.framework in Frameworks */,
 				5A3DEFB017091A7B00C69287 /* UIKit.framework in Frameworks */,
-				5A3DEFB117091A7B00C69287 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +146,7 @@
 		5A3DEF8417091A7A00C69287 = {
 			isa = PBXGroup;
 			children = (
+				5A9447F1170940A300FE6C27 /* README.md */,
 				5A3DEF9617091A7B00C69287 /* VenmoTeam */,
 				5A3DEFB417091A7B00C69287 /* VenmoTeamTests */,
 				5A3DEF8F17091A7A00C69287 /* Frameworks */,
@@ -165,10 +166,10 @@
 		5A3DEF8F17091A7A00C69287 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A3DEF9017091A7A00C69287 /* UIKit.framework */,
-				5A3DEF9217091A7A00C69287 /* Foundation.framework */,
 				5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */,
+				5A3DEF9217091A7A00C69287 /* Foundation.framework */,
 				5A3DEFAE17091A7B00C69287 /* SenTestingKit.framework */,
+				5A3DEF9017091A7A00C69287 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,7 +187,6 @@
 				5A3DEFCC17091AFA00C69287 /* VVTMember.m */,
 				5A3DEFCE17091B3D00C69287 /* Resources */,
 				5A3DEF9717091A7B00C69287 /* Supporting Files */,
-				5A9447F1170940A300FE6C27 /* README.md */,
 			);
 			path = VenmoTeam;
 			sourceTree = "<group>";
@@ -197,9 +197,6 @@
 				5A3DEF9817091A7B00C69287 /* VenmoTeam-Info.plist */,
 				5A3DEF9C17091A7B00C69287 /* main.m */,
 				5A3DEF9E17091A7B00C69287 /* VenmoTeam-Prefix.pch */,
-				5A3DEFA217091A7B00C69287 /* Default.png */,
-				5A3DEFA417091A7B00C69287 /* Default@2x.png */,
-				5A3DEFA617091A7B00C69287 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -225,6 +222,16 @@
 		5A3DEFCE17091B3D00C69287 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A3DEFCF17091B8B00C69287 /* AboutTitle@2x.png */,
+				5A3DEFD017091B8B00C69287 /* Ansar.png */,
+				5A3DEFD117091B8B00C69287 /* Bentert.png */,
+				5A3DEFD217091B8B00C69287 /* Brettman.png */,
+				5A3DEFD317091B8B00C69287 /* CellBackground.png */,
+				5A3DEFD417091B8B00C69287 /* Connor.png */,
+				5A3DEFD517091B8B00C69287 /* Cosson.png */,
+				5A3DEFA617091A7B00C69287 /* Default-568h@2x.png */,
+				5A3DEFA217091A7B00C69287 /* Default.png */,
+				5A3DEFA417091A7B00C69287 /* Default@2x.png */,
 				5A3DEFDD17091BA000C69287 /* Di Pasquale.png */,
 				5A3DEFDE17091BA000C69287 /* Einfrank.png */,
 				5A3DEFDF17091BA000C69287 /* Garfinkel.png */,
@@ -247,13 +254,6 @@
 				5A3DEFF017091BA000C69287 /* VenmoBackground.png */,
 				5A3DEFF117091BA000C69287 /* VenmoTeamLogo@2x.png */,
 				5A3DEFF217091BA000C69287 /* Zakin.png */,
-				5A3DEFCF17091B8B00C69287 /* AboutTitle@2x.png */,
-				5A3DEFD017091B8B00C69287 /* Ansar.png */,
-				5A3DEFD117091B8B00C69287 /* Bentert.png */,
-				5A3DEFD217091B8B00C69287 /* Brettman.png */,
-				5A3DEFD317091B8B00C69287 /* CellBackground.png */,
-				5A3DEFD417091B8B00C69287 /* Connor.png */,
-				5A3DEFD517091B8B00C69287 /* Cosson.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -330,9 +330,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3DEFA317091A7B00C69287 /* Default.png in Resources */,
-				5A3DEFA517091A7B00C69287 /* Default@2x.png in Resources */,
-				5A3DEFA717091A7B00C69287 /* Default-568h@2x.png in Resources */,
 				5A3DEFD617091B8B00C69287 /* AboutTitle@2x.png in Resources */,
 				5A3DEFD717091B8B00C69287 /* Ansar.png in Resources */,
 				5A3DEFD817091B8B00C69287 /* Bentert.png in Resources */,
@@ -340,6 +337,9 @@
 				5A3DEFDA17091B8B00C69287 /* CellBackground.png in Resources */,
 				5A3DEFDB17091B8B00C69287 /* Connor.png in Resources */,
 				5A3DEFDC17091B8B00C69287 /* Cosson.png in Resources */,
+				5A3DEFA717091A7B00C69287 /* Default-568h@2x.png in Resources */,
+				5A3DEFA317091A7B00C69287 /* Default.png in Resources */,
+				5A3DEFA517091A7B00C69287 /* Default@2x.png in Resources */,
 				5A3DEFF317091BA000C69287 /* Di Pasquale.png in Resources */,
 				5A3DEFF417091BA000C69287 /* Einfrank.png in Resources */,
 				5A3DEFF517091BA000C69287 /* Garfinkel.png in Resources */,
@@ -397,9 +397,9 @@
 			files = (
 				5A3DEF9D17091A7B00C69287 /* main.m in Sources */,
 				5A3DEFA117091A7B00C69287 /* VVTAppDelegate.m in Sources */,
+				5A3DEFCD17091AFA00C69287 /* VVTMember.m in Sources */,
 				5A3DEFC717091AA300C69287 /* VVTMembersViewController.m in Sources */,
 				5A3DEFCA17091ADD00C69287 /* VVTMemberViewController.m in Sources */,
-				5A3DEFCD17091AFA00C69287 /* VVTMember.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
