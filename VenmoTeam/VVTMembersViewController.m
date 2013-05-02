@@ -4,13 +4,16 @@
 
 @implementation VVTMembersViewController
 
+#pragma mark - UIViewController
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Add logo to navBar.
+
+    // Add logo to `navigationBar`.
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"VenmoTeamLogo"]];
     
-    // Add Member data.
+    // Create `_members`.
     VVTMember *member0 = [[VVTMember alloc] init];
     member0.name = @"Andrew Kortina";
     member0.title = @"Co-Founder";
@@ -158,7 +161,7 @@
     _members = @[member0, member1, member2, member3, member4, member5, member6, member7, member8, member9, member10, member11, member12, member13, member14, member15, member16, member17, member18, member19, member20, member21, member22, member23];
 }
 
-#pragma mark - Table view data source
+#pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -170,12 +173,12 @@
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (!cell) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
         cell.backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"CellBackground"]];
         cell.detailTextLabel.backgroundColor = [UIColor clearColor];
-        cell.detailTextLabel.font = [UIFont fontWithName:@"Avenir" size:13.0];
+        cell.detailTextLabel.font = [UIFont fontWithName:@"Avenir" size:13];
         cell.textLabel.backgroundColor = [UIColor clearColor];
-        cell.textLabel.font = [UIFont fontWithName:@"Avenir" size:16.0];
+        cell.textLabel.font = [UIFont fontWithName:@"Avenir" size:16];
     }
     
     VVTMember *member = _members[indexPath.row];
@@ -186,11 +189,11 @@
     return cell;
 }
 
-#pragma mark - Table view delegate
+#pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Create and push 'detailViewController'.
+    // Create and push `memberViewController`.
     VVTMemberViewController *memberViewController = [[VVTMemberViewController alloc] initWithNibName:nil bundle:nil];
     memberViewController.member = _members[indexPath.row];
     [self.navigationController pushViewController:memberViewController animated:YES];
