@@ -54,9 +54,9 @@
 		5A3DEF9017091A7A00C69287 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5A3DEF9217091A7A00C69287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5A3DEF9817091A7B00C69287 /* VenmoTeam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoTeam-Info.plist"; sourceTree = "<group>"; };
+		5A3DEF9817091A7B00C69287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A3DEF9C17091A7B00C69287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A3DEF9E17091A7B00C69287 /* VenmoTeam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VenmoTeam-Prefix.pch"; sourceTree = "<group>"; };
+		5A3DEF9E17091A7B00C69287 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		5A3DEF9F17091A7B00C69287 /* VVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVTAppDelegate.h; sourceTree = "<group>"; };
 		5A3DEFA017091A7B00C69287 /* VVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVTAppDelegate.m; sourceTree = "<group>"; };
 		5A3DEFA217091A7B00C69287 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -162,9 +162,9 @@
 		5A3DEF9717091A7B00C69287 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A3DEF9817091A7B00C69287 /* VenmoTeam-Info.plist */,
+				5A3DEF9817091A7B00C69287 /* Info.plist */,
 				5A3DEF9C17091A7B00C69287 /* main.m */,
-				5A3DEF9E17091A7B00C69287 /* VenmoTeam-Prefix.pch */,
+				5A3DEF9E17091A7B00C69287 /* Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -373,8 +373,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
-				INFOPLIST_FILE = "VenmoTeam/VenmoTeam-Info.plist";
+				GCC_PREFIX_HEADER = VenmoTeam/Prefix.pch;
+				INFOPLIST_FILE = VenmoTeam/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -384,8 +384,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
-				INFOPLIST_FILE = "VenmoTeam/VenmoTeam-Info.plist";
+				GCC_PREFIX_HEADER = VenmoTeam/Prefix.pch;
+				INFOPLIST_FILE = VenmoTeam/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
