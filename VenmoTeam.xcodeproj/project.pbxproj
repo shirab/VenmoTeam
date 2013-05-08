@@ -10,17 +10,11 @@
 		5A3DEF9117091A7A00C69287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9017091A7A00C69287 /* UIKit.framework */; };
 		5A3DEF9317091A7B00C69287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9217091A7A00C69287 /* Foundation.framework */; };
 		5A3DEF9517091A7B00C69287 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */; };
-		5A3DEF9B17091A7B00C69287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEF9917091A7B00C69287 /* InfoPlist.strings */; };
 		5A3DEF9D17091A7B00C69287 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEF9C17091A7B00C69287 /* main.m */; };
 		5A3DEFA117091A7B00C69287 /* VVTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA017091A7B00C69287 /* VVTAppDelegate.m */; };
 		5A3DEFA317091A7B00C69287 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA217091A7B00C69287 /* Default.png */; };
 		5A3DEFA517091A7B00C69287 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA417091A7B00C69287 /* Default@2x.png */; };
 		5A3DEFA717091A7B00C69287 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFA617091A7B00C69287 /* Default-568h@2x.png */; };
-		5A3DEFAF17091A7B00C69287 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEFAE17091A7B00C69287 /* SenTestingKit.framework */; };
-		5A3DEFB017091A7B00C69287 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9017091A7A00C69287 /* UIKit.framework */; };
-		5A3DEFB117091A7B00C69287 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3DEF9217091A7A00C69287 /* Foundation.framework */; };
-		5A3DEFB917091A7B00C69287 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFB717091A7B00C69287 /* InfoPlist.strings */; };
-		5A3DEFBC17091A7B00C69287 /* VenmoTeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */; };
 		5A3DEFC717091AA300C69287 /* VVTMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC617091AA300C69287 /* VVTMembersViewController.m */; };
 		5A3DEFCA17091ADD00C69287 /* VVTMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFC917091ADD00C69287 /* VVTMemberViewController.m */; };
 		5A3DEFCD17091AFA00C69287 /* VVTMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3DEFCC17091AFA00C69287 /* VVTMember.m */; };
@@ -53,39 +47,21 @@
 		5A3DF00617091BA000C69287 /* VenmoBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFF017091BA000C69287 /* VenmoBackground.png */; };
 		5A3DF00717091BA000C69287 /* VenmoTeamLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFF117091BA000C69287 /* VenmoTeamLogo@2x.png */; };
 		5A3DF00817091BA000C69287 /* Zakin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DEFF217091BA000C69287 /* Zakin.png */; };
-		5A9447F2170940A300FE6C27 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A9447F1170940A300FE6C27 /* README.md */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5A3DEFB217091A7B00C69287 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5A3DEF8517091A7A00C69287 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A3DEF8C17091A7A00C69287;
-			remoteInfo = VenmoTeam;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5A3DEF8D17091A7A00C69287 /* VenmoTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3DEF9017091A7A00C69287 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5A3DEF9217091A7A00C69287 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5A3DEF9817091A7B00C69287 /* VenmoTeam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoTeam-Info.plist"; sourceTree = "<group>"; };
-		5A3DEF9A17091A7B00C69287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A3DEF9817091A7B00C69287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A3DEF9C17091A7B00C69287 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A3DEF9E17091A7B00C69287 /* VenmoTeam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VenmoTeam-Prefix.pch"; sourceTree = "<group>"; };
+		5A3DEF9E17091A7B00C69287 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		5A3DEF9F17091A7B00C69287 /* VVTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVTAppDelegate.h; sourceTree = "<group>"; };
 		5A3DEFA017091A7B00C69287 /* VVTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVTAppDelegate.m; sourceTree = "<group>"; };
 		5A3DEFA217091A7B00C69287 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5A3DEFA417091A7B00C69287 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5A3DEFA617091A7B00C69287 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5A3DEFAD17091A7B00C69287 /* VenmoTeamTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenmoTeamTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A3DEFAE17091A7B00C69287 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5A3DEFB617091A7B00C69287 /* VenmoTeamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VenmoTeamTests-Info.plist"; sourceTree = "<group>"; };
-		5A3DEFB817091A7B00C69287 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5A3DEFBA17091A7B00C69287 /* VenmoTeamTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenmoTeamTests.h; sourceTree = "<group>"; };
-		5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenmoTeamTests.m; sourceTree = "<group>"; };
 		5A3DEFC517091AA300C69287 /* VVTMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTMembersViewController.h; sourceTree = "<group>"; };
 		5A3DEFC617091AA300C69287 /* VVTMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVTMembersViewController.m; sourceTree = "<group>"; };
 		5A3DEFC817091ADD00C69287 /* VVTMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVTMemberViewController.h; sourceTree = "<group>"; };
@@ -129,19 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3DEF9117091A7A00C69287 /* UIKit.framework in Frameworks */,
 				5A3DEF9317091A7B00C69287 /* Foundation.framework in Frameworks */,
 				5A3DEF9517091A7B00C69287 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A3DEFA917091A7B00C69287 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A3DEFAF17091A7B00C69287 /* SenTestingKit.framework in Frameworks */,
-				5A3DEFB017091A7B00C69287 /* UIKit.framework in Frameworks */,
-				5A3DEFB117091A7B00C69287 /* Foundation.framework in Frameworks */,
+				5A3DEF9117091A7A00C69287 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +117,8 @@
 		5A3DEF8417091A7A00C69287 = {
 			isa = PBXGroup;
 			children = (
+				5A9447F1170940A300FE6C27 /* README.md */,
 				5A3DEF9617091A7B00C69287 /* VenmoTeam */,
-				5A3DEFB417091A7B00C69287 /* VenmoTeamTests */,
 				5A3DEF8F17091A7A00C69287 /* Frameworks */,
 				5A3DEF8E17091A7A00C69287 /* Products */,
 			);
@@ -162,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				5A3DEF8D17091A7A00C69287 /* VenmoTeam.app */,
-				5A3DEFAD17091A7B00C69287 /* VenmoTeamTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,10 +135,9 @@
 		5A3DEF8F17091A7A00C69287 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A3DEF9017091A7A00C69287 /* UIKit.framework */,
-				5A3DEF9217091A7A00C69287 /* Foundation.framework */,
 				5A3DEF9417091A7B00C69287 /* CoreGraphics.framework */,
-				5A3DEFAE17091A7B00C69287 /* SenTestingKit.framework */,
+				5A3DEF9217091A7A00C69287 /* Foundation.framework */,
+				5A3DEF9017091A7A00C69287 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,7 +155,6 @@
 				5A3DEFCC17091AFA00C69287 /* VVTMember.m */,
 				5A3DEFCE17091B3D00C69287 /* Resources */,
 				5A3DEF9717091A7B00C69287 /* Supporting Files */,
-				5A9447F1170940A300FE6C27 /* README.md */,
 			);
 			path = VenmoTeam;
 			sourceTree = "<group>";
@@ -199,32 +162,9 @@
 		5A3DEF9717091A7B00C69287 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A3DEF9817091A7B00C69287 /* VenmoTeam-Info.plist */,
-				5A3DEF9917091A7B00C69287 /* InfoPlist.strings */,
+				5A3DEF9817091A7B00C69287 /* Info.plist */,
 				5A3DEF9C17091A7B00C69287 /* main.m */,
-				5A3DEF9E17091A7B00C69287 /* VenmoTeam-Prefix.pch */,
-				5A3DEFA217091A7B00C69287 /* Default.png */,
-				5A3DEFA417091A7B00C69287 /* Default@2x.png */,
-				5A3DEFA617091A7B00C69287 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5A3DEFB417091A7B00C69287 /* VenmoTeamTests */ = {
-			isa = PBXGroup;
-			children = (
-				5A3DEFBA17091A7B00C69287 /* VenmoTeamTests.h */,
-				5A3DEFBB17091A7B00C69287 /* VenmoTeamTests.m */,
-				5A3DEFB517091A7B00C69287 /* Supporting Files */,
-			);
-			path = VenmoTeamTests;
-			sourceTree = "<group>";
-		};
-		5A3DEFB517091A7B00C69287 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5A3DEFB617091A7B00C69287 /* VenmoTeamTests-Info.plist */,
-				5A3DEFB717091A7B00C69287 /* InfoPlist.strings */,
+				5A3DEF9E17091A7B00C69287 /* Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,6 +172,16 @@
 		5A3DEFCE17091B3D00C69287 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A3DEFCF17091B8B00C69287 /* AboutTitle@2x.png */,
+				5A3DEFD017091B8B00C69287 /* Ansar.png */,
+				5A3DEFD117091B8B00C69287 /* Bentert.png */,
+				5A3DEFD217091B8B00C69287 /* Brettman.png */,
+				5A3DEFD317091B8B00C69287 /* CellBackground.png */,
+				5A3DEFD417091B8B00C69287 /* Connor.png */,
+				5A3DEFD517091B8B00C69287 /* Cosson.png */,
+				5A3DEFA617091A7B00C69287 /* Default-568h@2x.png */,
+				5A3DEFA217091A7B00C69287 /* Default.png */,
+				5A3DEFA417091A7B00C69287 /* Default@2x.png */,
 				5A3DEFDD17091BA000C69287 /* Di Pasquale.png */,
 				5A3DEFDE17091BA000C69287 /* Einfrank.png */,
 				5A3DEFDF17091BA000C69287 /* Garfinkel.png */,
@@ -254,13 +204,6 @@
 				5A3DEFF017091BA000C69287 /* VenmoBackground.png */,
 				5A3DEFF117091BA000C69287 /* VenmoTeamLogo@2x.png */,
 				5A3DEFF217091BA000C69287 /* Zakin.png */,
-				5A3DEFCF17091B8B00C69287 /* AboutTitle@2x.png */,
-				5A3DEFD017091B8B00C69287 /* Ansar.png */,
-				5A3DEFD117091B8B00C69287 /* Bentert.png */,
-				5A3DEFD217091B8B00C69287 /* Brettman.png */,
-				5A3DEFD317091B8B00C69287 /* CellBackground.png */,
-				5A3DEFD417091B8B00C69287 /* Connor.png */,
-				5A3DEFD517091B8B00C69287 /* Cosson.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -285,25 +228,6 @@
 			productReference = 5A3DEF8D17091A7A00C69287 /* VenmoTeam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5A3DEFAC17091A7B00C69287 /* VenmoTeamTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5A3DEFC217091A7B00C69287 /* Build configuration list for PBXNativeTarget "VenmoTeamTests" */;
-			buildPhases = (
-				5A3DEFA817091A7B00C69287 /* Sources */,
-				5A3DEFA917091A7B00C69287 /* Frameworks */,
-				5A3DEFAA17091A7B00C69287 /* Resources */,
-				5A3DEFAB17091A7B00C69287 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5A3DEFB317091A7B00C69287 /* PBXTargetDependency */,
-			);
-			name = VenmoTeamTests;
-			productName = VenmoTeamTests;
-			productReference = 5A3DEFAD17091A7B00C69287 /* VenmoTeamTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,7 +251,6 @@
 			projectRoot = "";
 			targets = (
 				5A3DEF8C17091A7A00C69287 /* VenmoTeam */,
-				5A3DEFAC17091A7B00C69287 /* VenmoTeamTests */,
 			);
 		};
 /* End PBXProject section */
@@ -337,10 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3DEF9B17091A7B00C69287 /* InfoPlist.strings in Resources */,
-				5A3DEFA317091A7B00C69287 /* Default.png in Resources */,
-				5A3DEFA517091A7B00C69287 /* Default@2x.png in Resources */,
-				5A3DEFA717091A7B00C69287 /* Default-568h@2x.png in Resources */,
 				5A3DEFD617091B8B00C69287 /* AboutTitle@2x.png in Resources */,
 				5A3DEFD717091B8B00C69287 /* Ansar.png in Resources */,
 				5A3DEFD817091B8B00C69287 /* Bentert.png in Resources */,
@@ -348,6 +267,9 @@
 				5A3DEFDA17091B8B00C69287 /* CellBackground.png in Resources */,
 				5A3DEFDB17091B8B00C69287 /* Connor.png in Resources */,
 				5A3DEFDC17091B8B00C69287 /* Cosson.png in Resources */,
+				5A3DEFA717091A7B00C69287 /* Default-568h@2x.png in Resources */,
+				5A3DEFA317091A7B00C69287 /* Default.png in Resources */,
+				5A3DEFA517091A7B00C69287 /* Default@2x.png in Resources */,
 				5A3DEFF317091BA000C69287 /* Di Pasquale.png in Resources */,
 				5A3DEFF417091BA000C69287 /* Einfrank.png in Resources */,
 				5A3DEFF517091BA000C69287 /* Garfinkel.png in Resources */,
@@ -370,35 +292,10 @@
 				5A3DF00617091BA000C69287 /* VenmoBackground.png in Resources */,
 				5A3DF00717091BA000C69287 /* VenmoTeamLogo@2x.png in Resources */,
 				5A3DF00817091BA000C69287 /* Zakin.png in Resources */,
-				5A9447F2170940A300FE6C27 /* README.md in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A3DEFAA17091A7B00C69287 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A3DEFB917091A7B00C69287 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5A3DEFAB17091A7B00C69287 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A3DEF8917091A7A00C69287 /* Sources */ = {
@@ -407,48 +304,13 @@
 			files = (
 				5A3DEF9D17091A7B00C69287 /* main.m in Sources */,
 				5A3DEFA117091A7B00C69287 /* VVTAppDelegate.m in Sources */,
+				5A3DEFCD17091AFA00C69287 /* VVTMember.m in Sources */,
 				5A3DEFC717091AA300C69287 /* VVTMembersViewController.m in Sources */,
 				5A3DEFCA17091ADD00C69287 /* VVTMemberViewController.m in Sources */,
-				5A3DEFCD17091AFA00C69287 /* VVTMember.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A3DEFA817091A7B00C69287 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A3DEFBC17091A7B00C69287 /* VenmoTeamTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5A3DEFB317091A7B00C69287 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5A3DEF8C17091A7A00C69287 /* VenmoTeam */;
-			targetProxy = 5A3DEFB217091A7B00C69287 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5A3DEF9917091A7B00C69287 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A3DEF9A17091A7B00C69287 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5A3DEFB717091A7B00C69287 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A3DEFB817091A7B00C69287 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5A3DEFBD17091A7B00C69287 /* Debug */ = {
@@ -511,8 +373,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
-				INFOPLIST_FILE = "VenmoTeam/VenmoTeam-Info.plist";
+				GCC_PREFIX_HEADER = VenmoTeam/Prefix.pch;
+				INFOPLIST_FILE = VenmoTeam/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -522,44 +384,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
-				INFOPLIST_FILE = "VenmoTeam/VenmoTeam-Info.plist";
+				GCC_PREFIX_HEADER = VenmoTeam/Prefix.pch;
+				INFOPLIST_FILE = VenmoTeam/Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		5A3DEFC317091A7B00C69287 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VenmoTeam.app/VenmoTeam";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
-				INFOPLIST_FILE = "VenmoTeamTests/VenmoTeamTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		5A3DEFC417091A7B00C69287 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VenmoTeam.app/VenmoTeam";
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VenmoTeam/VenmoTeam-Prefix.pch";
-				INFOPLIST_FILE = "VenmoTeamTests/VenmoTeamTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -580,15 +408,6 @@
 			buildConfigurations = (
 				5A3DEFC017091A7B00C69287 /* Debug */,
 				5A3DEFC117091A7B00C69287 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5A3DEFC217091A7B00C69287 /* Build configuration list for PBXNativeTarget "VenmoTeamTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A3DEFC317091A7B00C69287 /* Debug */,
-				5A3DEFC417091A7B00C69287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
